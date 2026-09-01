@@ -1,0 +1,70 @@
+about:
+  description: Official mirror of Blender
+  license: NOASSERTION
+  homepage: https://developer.blender.org/docs/handbook/contributing/using_git/#github-mirror
+  head: fc99fe0
+  archived: false
+  latestVersion: 
+  collectedAt: 2026-09-01T03:52:34Z
+timeline:
+  created: 2019-10-09
+  lastCommit: 2026-09-01
+  lastRelease: ?
+popularity:
+  star: 19935
+  watcher: 360
+  fork: 3178
+  release: 0
+  contributor: 540
+  pullRequest: 0
+  issue: 0
+language:
+  C++: 109431022
+  Python: 20555482
+  C: 1973170
+  CMake: 1581680
+  GLSL: 1506997
+  Objective-C++: 932063
+  HTML: 66438
+  Batchfile: 51439
+  Shell: 34451
+  Makefile: 27870
+  Metal: 27497
+  Cuda: 13467
+  Slash: 5643
+  Hack: 1309
+  Objective-C: 275
+totalLine: 136208803
+recent:
+  last30d:
+    since: 2026-08-02
+    release: 0
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 507
+  last90d:
+    since: 2026-06-03
+    release: 0
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 2234
+  last180d:
+    since: 2026-03-05
+    release: 0
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 4584
+  last360d:
+    since: 2025-09-06
+    release: 0
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 9645
