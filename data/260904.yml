@@ -4,16 +4,16 @@ about:
     Official mirror of Blender
   license: NOASSERTION
   homepage: https://developer.blender.org/docs/handbook/contributing/using_git/#github-mirror
-  head: 623771b
+  head: 1feb167
   archived: false
   latestVersion: 
-  collectedAt: 2026-09-04T19:19:26Z
+  collectedAt: 2026-09-04T21:13:11Z
 timeline:
   created: 2019-10-09
   lastCommit: 2026-09-04
   lastRelease: 
 popularity:
-  star: 19993
+  star: 19994
   watcher: 362
   fork: 3184
   release: 0
@@ -21,10 +21,10 @@ popularity:
   pullRequest: 0
   issue: 0
 language:
-  C++: 109642700
-  Python: 20585237
-  C: 1983659
-  CMake: 1585652
+  C++: 109648895
+  Python: 20588888
+  C: 1983754
+  CMake: 1585677
   GLSL: 1514632
   Objective-C++: 933760
   HTML: 66438
@@ -36,7 +36,7 @@ language:
   Slash: 5643
   Hack: 1340
   Objective-C: 314
-totalBytes: 136474099
+totalBytes: 136484065
 recent:
   last30d:
     since: 2026-08-05
@@ -45,7 +45,7 @@ recent:
     openPR: 0
     closedIssue: 0
     openIssue: 0
-    commit: 629
+    commit: 633
   last60d:
     since: 2026-07-06
     release: 0
@@ -53,7 +53,7 @@ recent:
     openPR: 0
     closedIssue: 0
     openIssue: 0
-    commit: 1234
+    commit: 1238
   last90d:
     since: 2026-06-06
     release: 0
@@ -61,7 +61,7 @@ recent:
     openPR: 0
     closedIssue: 0
     openIssue: 0
-    commit: 2358
+    commit: 2362
   last180d:
     since: 2026-03-08
     release: 0
@@ -69,7 +69,7 @@ recent:
     openPR: 0
     closedIssue: 0
     openIssue: 0
-    commit: 4708
+    commit: 4712
   last360d:
     since: 2025-09-09
     release: 0
@@ -77,7 +77,7 @@ recent:
     openPR: 0
     closedIssue: 0
     openIssue: 0
-    commit: 9769
+    commit: 9773
   last720d:
     since: 2024-09-14
     release: 0
@@ -85,14 +85,14 @@ recent:
     openPR: 0
     closedIssue: 0
     openIssue: 0
-    commit: 23884
+    commit: 23888
 total:
   release: 0
   mergedPR: 0
   openPR: 0
   closedIssue: 0
   openIssue: 0
-  commit: 164883
+  commit: 164887
 ---
 ---
 date: "2026-08-24"
