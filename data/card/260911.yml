@@ -2,12 +2,12 @@ about:
   description: "Official mirror of Blender"
   license: NOASSERTION
   homepage: https://developer.blender.org/docs/handbook/contributing/using_git/#github-mirror
-  head: 6cefd2b
+  head: ee3b33e
   archived: false
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-09-11T05:37:58Z
+  collectedAt: 2026-09-11T19:15:59Z
 timeline:
   created: 2019-10-09
   lastCommit: 2026-09-11
@@ -15,18 +15,18 @@ timeline:
   lastRelease: 
   lastPrerelease: 
 popularity:
-  star: 20236
+  star: 20248
   watcher: 365
-  fork: 3225
+  fork: 3224
   release: 0
   contributor: 543
   pullRequest: 0
   issue: 0
 language:
-  C++: 110221532
-  Python: 20629396
+  C++: 110300335
+  Python: 20643157
   C: 1983677
-  CMake: 1588140
+  CMake: 1588642
   GLSL: 1108007
   Objective-C++: 927126
   HTML: 66438
@@ -38,7 +38,7 @@ language:
   Slash: 5643
   Hack: 1340
   Objective-C: 314
-totalBytes: 136687123
+totalBytes: 136780189
 recent:
   last30d:
     since: 2026-08-12
@@ -47,7 +47,7 @@ recent:
     openPR: 0
     closedIssue: 0
     openIssue: 0
-    commit: 659
+    commit: 675
   last60d:
     since: 2026-07-13
     release: 0
@@ -55,7 +55,7 @@ recent:
     openPR: 0
     closedIssue: 0
     openIssue: 0
-    commit: 1264
+    commit: 1280
   last90d:
     since: 2026-06-13
     release: 0
@@ -63,7 +63,7 @@ recent:
     openPR: 0
     closedIssue: 0
     openIssue: 0
-    commit: 2155
+    commit: 2171
   last180d:
     since: 2026-03-15
     release: 0
@@ -71,7 +71,7 @@ recent:
     openPR: 0
     closedIssue: 0
     openIssue: 0
-    commit: 4703
+    commit: 4719
   last360d:
     since: 2025-09-16
     release: 0
@@ -79,7 +79,7 @@ recent:
     openPR: 0
     closedIssue: 0
     openIssue: 0
-    commit: 9802
+    commit: 9818
   last720d:
     since: 2024-09-21
     release: 0
@@ -87,14 +87,14 @@ recent:
     openPR: 0
     closedIssue: 0
     openIssue: 0
-    commit: 23784
+    commit: 23803
 total:
   release: 0
   mergedPR: 0
   openPR: 0
   closedIssue: 0
   openIssue: 0
-  commit: 165047
+  commit: 165066
 ---
 ---
 date: "2026-09-07"
