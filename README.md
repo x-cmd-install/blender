@@ -4,7 +4,7 @@
 
 Official mirror of Blender
 
-![blender](https://repo.x-cmd.io/blender.svg)
+[![x-cmd/install — blender Code Quality Monitoring Repo Card](https://repo.x-cmd.io/blender.svg)](https://x-cmd.com/install/blender)
 
 ## Install
 
@@ -30,22 +30,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 20,404 · **Forks**: 3,253 · **Open issues**: 0 · **Contributors**: 549
+- **Stars**: 20,427 · **Forks**: 3,259 · **Open issues**: 0 · **Contributors**: 549
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 165236
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 165307
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 0 | 0 | 0 | 0 | 675 |
-| last60d | 2026-07-20 | 0 | 0 | 0 | 0 | 0 | 1295 |
-| 90d | 2026-06-20 | 0 | 0 | 0 | 0 | 0 | 2102 |
-| last180d | 2026-03-22 | 0 | 0 | 0 | 0 | 0 | 4688 |
-| 360d | 2025-09-23 | 0 | 0 | 0 | 0 | 0 | 9837 |
-| last720d | 2024-09-28 | 0 | 0 | 0 | 0 | 0 | 23694 |
+| 30d | 2026-08-21 | 0 | 0 | 0 | 0 | 0 | 580 |
+| last60d | 2026-07-22 | 0 | 0 | 0 | 0 | 0 | 1247 |
+| 90d | 2026-06-22 | 0 | 0 | 0 | 0 | 0 | 1966 |
+| last180d | 2026-03-24 | 0 | 0 | 0 | 0 | 0 | 4568 |
+| 360d | 2025-09-25 | 0 | 0 | 0 | 0 | 0 | 9673 |
+| last720d | 2024-09-30 | 0 | 0 | 0 | 0 | 0 | 23753 |
 
 ## Improve this data
 
@@ -56,4 +56,4 @@ Install metadata for blender lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T06:09:52Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T05:59:43Z._

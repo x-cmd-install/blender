@@ -4,7 +4,7 @@
 
 Official mirror of Blender
 
-![blender](https://repo.x-cmd.io/blender.svg?lang=zh)
+[![x-cmd/install — blender Code Quality Monitoring Repo Card](https://repo.x-cmd.io/blender.svg?lang=zh)](https://x-cmd.com/install/blender)
 
 ## 安装
 
@@ -30,22 +30,22 @@ x install blender
 
 ## 流行度
 
-- **Star**: 20,404 · **Fork**: 3,253 · **开放 issue**: 0 · **贡献者**: 549
+- **Star**: 20,427 · **Fork**: 3,259 · **开放 issue**: 0 · **贡献者**: 549
 
 ## 累计统计
 
-- **发布数**: 0 · **已合并 PR**: 0 · **开放 PR**: 0 · **已关闭 issue**: 0 · **开放 issue**: 0 · **提交数**: 165236
+- **发布数**: 0 · **已合并 PR**: 0 · **开放 PR**: 0 · **已关闭 issue**: 0 · **开放 issue**: 0 · **提交数**: 165307
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 0 | 0 | 0 | 0 | 675 |
-| last60d | 2026-07-20 | 0 | 0 | 0 | 0 | 0 | 1295 |
-| 90d | 2026-06-20 | 0 | 0 | 0 | 0 | 0 | 2102 |
-| last180d | 2026-03-22 | 0 | 0 | 0 | 0 | 0 | 4688 |
-| 360d | 2025-09-23 | 0 | 0 | 0 | 0 | 0 | 9837 |
-| last720d | 2024-09-28 | 0 | 0 | 0 | 0 | 0 | 23694 |
+| 30d | 2026-08-21 | 0 | 0 | 0 | 0 | 0 | 580 |
+| last60d | 2026-07-22 | 0 | 0 | 0 | 0 | 0 | 1247 |
+| 90d | 2026-06-22 | 0 | 0 | 0 | 0 | 0 | 1966 |
+| last180d | 2026-03-24 | 0 | 0 | 0 | 0 | 0 | 4568 |
+| 360d | 2025-09-25 | 0 | 0 | 0 | 0 | 0 | 9673 |
+| last720d | 2024-09-30 | 0 | 0 | 0 | 0 | 0 | 23753 |
 
 ## 改进这些数据
 
@@ -56,4 +56,4 @@ blender 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260918.yml` · 2026-09-18T06:09:52Z._
+_数据快照: `data/card/260920.yml` · 2026-09-20T05:59:44Z._
