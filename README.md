@@ -30,22 +30,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 20,607 · **Forks**: 3,307 · **Open issues**: 0 · **Contributors**: 552
+- **Stars**: 20,623 · **Forks**: 3,307 · **Open issues**: 0 · **Contributors**: 552
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 165487
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 165527
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-31 | 0 | 0 | 0 | 0 | 0 | 563 |
-| last60d | 2026-08-01 | 0 | 0 | 0 | 0 | 0 | 1250 |
-| 90d | 2026-07-02 | 0 | 0 | 0 | 0 | 0 | 1836 |
-| last180d | 2026-04-03 | 0 | 0 | 0 | 0 | 0 | 4571 |
-| 360d | 2025-10-05 | 0 | 0 | 0 | 0 | 0 | 9531 |
-| last720d | 2024-10-10 | 0 | 0 | 0 | 0 | 0 | 23392 |
+| 30d | 2026-09-01 | 0 | 0 | 0 | 0 | 0 | 597 |
+| last60d | 2026-08-02 | 0 | 0 | 0 | 0 | 0 | 1284 |
+| 90d | 2026-07-03 | 0 | 0 | 0 | 0 | 0 | 1870 |
+| last180d | 2026-04-04 | 0 | 0 | 0 | 0 | 0 | 4605 |
+| 360d | 2025-10-06 | 0 | 0 | 0 | 0 | 0 | 9565 |
+| last720d | 2024-10-11 | 0 | 0 | 0 | 0 | 0 | 23377 |
 
 ## Improve this data
 
@@ -56,4 +56,4 @@ Install metadata for blender lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260930.yml` · 2026-09-30T06:33:31Z._
+_Snapshot: `data/card/261001.yml` · 2026-10-01T06:43:43Z._
