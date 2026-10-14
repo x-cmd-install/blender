@@ -19,8 +19,8 @@ Overall score: **3.5 / 10**
 Lowest-scoring checks:
 
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (-1/10) — No tokens found
 - **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
-- **Dangerous-Workflow** (-1/10) — no workflows found
 
 ## Source
 
@@ -30,22 +30,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 20,876 · **Forks**: 3,359 · **Open issues**: 0 · **Contributors**: 659
+- **Stars**: 20,890 · **Forks**: 3,365 · **Open issues**: 0 · **Contributors**: 659
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 166045
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 166128
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-13 | 0 | 0 | 0 | 0 | 0 | 760 |
-| last60d | 2026-08-14 | 0 | 0 | 0 | 0 | 0 | 1507 |
-| 90d | 2026-07-15 | 0 | 0 | 0 | 0 | 0 | 2117 |
-| last180d | 2026-04-16 | 0 | 0 | 0 | 0 | 0 | 4870 |
-| 360d | 2025-10-18 | 0 | 0 | 0 | 0 | 0 | 9844 |
-| last720d | 2024-10-23 | 0 | 0 | 0 | 0 | 0 | 23444 |
+| 30d | 2026-09-14 | 0 | 0 | 0 | 0 | 0 | 830 |
+| last60d | 2026-08-15 | 0 | 0 | 0 | 0 | 0 | 1582 |
+| 90d | 2026-07-16 | 0 | 0 | 0 | 0 | 0 | 2192 |
+| last180d | 2026-04-17 | 0 | 0 | 0 | 0 | 0 | 4945 |
+| 360d | 2025-10-19 | 0 | 0 | 0 | 0 | 0 | 9919 |
+| last720d | 2024-10-24 | 0 | 0 | 0 | 0 | 0 | 23506 |
 
 ## Improve this data
 
@@ -56,4 +56,4 @@ Install metadata for blender lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261013.yml` · 2026-10-13T07:48:20Z._
+_Snapshot: `data/card/261014.yml` · 2026-10-14T06:00:30Z._
