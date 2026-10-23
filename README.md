@@ -30,22 +30,40 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 21,140 · **Forks**: 3,423 · **Open issues**: 0 · **Contributors**: 661
+- **Stars**: 21,173 · **Forks**: 3,426 · **Open issues**: 0 · **Contributors**: 660
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 166546
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 166587
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 0 | 0 | 0 | 0 | 1060 |
-| last60d | 2026-08-23 | 0 | 0 | 0 | 0 | 0 | 1794 |
-| 90d | 2026-07-24 | 0 | 0 | 0 | 0 | 0 | 2460 |
-| last180d | 2026-04-25 | 0 | 0 | 0 | 0 | 0 | 5170 |
-| 360d | 2025-10-27 | 0 | 0 | 0 | 0 | 0 | 10053 |
-| last720d | 2024-11-01 | 0 | 0 | 0 | 0 | 0 | 23651 |
+| 30d | 2026-09-23 | 0 | 0 | 0 | 0 | 0 | 1097 |
+| last60d | 2026-08-24 | 0 | 0 | 0 | 0 | 0 | 1831 |
+| 90d | 2026-07-25 | 0 | 0 | 0 | 0 | 0 | 2497 |
+| last180d | 2026-04-26 | 0 | 0 | 0 | 0 | 0 | 5207 |
+| 360d | 2025-10-28 | 0 | 0 | 0 | 0 | 0 | 10089 |
+| last720d | 2024-11-02 | 0 | 0 | 0 | 0 | 0 | 23651 |
+
+## Distribution status
+
+Reported by **376** distros on [repology.org](https://repology.org/project/blender). **7** are ✅ on the latest upstream release, **173** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `5.0.1` | 🪦 legacy |
+| Debian 14 | `5.0.1` | ⚠️ outdated |
+| Debian 13 | `4.3.2` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `5.0.1` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `4.0.2` | ⚠️ outdated |
+| Arch | `5.2.2` | ⚠️ outdated |
+| Fedora rawhide | `5.2.2` | ⚠️ outdated |
+| Nix unstable | `5.2.2` | ⚠️ outdated |
+| Void | `5.0.0` | ⚠️ outdated |
+| Alpine edge | `5.2.2` | ⚠️ outdated |
+| openSUSE Tumbleweed | `4.5.14` | 🪦 legacy |
 
 ## Improve this data
 
@@ -56,4 +74,4 @@ Install metadata for blender lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:34:18Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:40:50Z._
