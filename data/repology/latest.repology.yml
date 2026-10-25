@@ -1,994 +1,3 @@
-- repo: mx_25_testing
-  srcname: blender
-  binnames:
-    - blender
-    - blender-data
-  visiblename: blender
-  version: 5.0.1
-  origversion: 5.0.1+dfsg-1~mx25+1
-  status: outdated
-  maintainers:
-    - stevep@mxlinux.org
-    - daniel@debian.org
-  categories:
-    - graphics
-- repo: pld
-  srcname: blender
-  visiblename: blender
-  version: 5.0.0
-  origversion: 5.0.0-1
-  status: outdated
-- repo: alpine_3_17
-  subrepo: community
-  srcname: blender
-  binname: blender
-  visiblename: blender
-  version: 3.3.1
-  origversion: 3.3.1-r4
-  status: outdated
-  summary: 3D Creation/Animation/Publishing System
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_17
-  subrepo: community
-  srcname: blender
-  binname: blender-shared
-  visiblename: blender-shared
-  version: 3.3.1
-  origversion: 3.3.1-r4
-  status: outdated
-  summary: Blender shared runtime data and add-on scripts
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_17
-  subrepo: community
-  srcname: blender
-  binname: blender-doc
-  visiblename: blender-doc
-  version: 3.3.1
-  origversion: 3.3.1-r4
-  status: outdated
-  summary: 3D Creation/Animation/Publishing System (documentation)
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_17
-  subrepo: community
-  srcname: blender
-  binname: blender-headless
-  visiblename: blender-headless
-  version: 3.3.1
-  origversion: 3.3.1-r4
-  status: outdated
-  summary: 3D Creation/Animation/Publishing System (headless build)
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_17
-  subrepo: community
-  srcname: blender
-  binname: py3-blender
-  visiblename: py3-blender
-  version: 3.3.1
-  origversion: 3.3.1-r4
-  status: outdated
-  summary: Blender modules for Python 3
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_18
-  subrepo: community
-  srcname: blender
-  binname: blender
-  visiblename: blender
-  version: 3.5.1
-  origversion: 3.5.1-r0
-  status: outdated
-  summary: 3D Creation/Animation/Publishing System
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_18
-  subrepo: community
-  srcname: blender
-  binname: blender-doc
-  visiblename: blender-doc
-  version: 3.5.1
-  origversion: 3.5.1-r0
-  status: outdated
-  summary: 3D Creation/Animation/Publishing System (documentation)
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_18
-  subrepo: community
-  srcname: blender
-  binname: blender-headless
-  visiblename: blender-headless
-  version: 3.5.1
-  origversion: 3.5.1-r0
-  status: outdated
-  summary: 3D Creation/Animation/Publishing System (headless build)
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_18
-  subrepo: community
-  srcname: blender
-  binname: blender-shared
-  visiblename: blender-shared
-  version: 3.5.1
-  origversion: 3.5.1-r0
-  status: outdated
-  summary: Blender shared runtime data and add-on scripts
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_18
-  subrepo: community
-  srcname: blender
-  binname: py3-blender
-  visiblename: py3-blender
-  version: 3.5.1
-  origversion: 3.5.1-r0
-  status: outdated
-  summary: Blender modules for Python 3
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_19
-  subrepo: community
-  srcname: blender
-  binname: blender
-  visiblename: blender
-  version: 4.0.1
-  origversion: 4.0.1-r2
-  status: outdated
-  summary: 3D Creation/Animation/Publishing System
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_edge
-  subrepo: community
-  srcname: blender
-  binname: blender
-  visiblename: blender
-  version: 5.2.2
-  origversion: 5.2.2-r2
-  status: outdated
-  summary: 3D Creation/Animation/Publishing System
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_19
-  subrepo: community
-  srcname: blender
-  binname: blender-doc
-  visiblename: blender-doc
-  version: 4.0.1
-  origversion: 4.0.1-r2
-  status: outdated
-  summary: 3D Creation/Animation/Publishing System (documentation)
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_19
-  subrepo: community
-  srcname: blender
-  binname: blender-headless
-  visiblename: blender-headless
-  version: 4.0.1
-  origversion: 4.0.1-r2
-  status: outdated
-  summary: 3D Creation/Animation/Publishing System (headless build)
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_19
-  subrepo: community
-  srcname: blender
-  binname: blender-shared
-  visiblename: blender-shared
-  version: 4.0.1
-  origversion: 4.0.1-r2
-  status: outdated
-  summary: Blender shared runtime data and add-on scripts
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_19
-  subrepo: community
-  srcname: blender
-  binname: py3-blender
-  visiblename: py3-blender
-  version: 4.0.1
-  origversion: 4.0.1-r2
-  status: outdated
-  summary: Blender modules for Python 3
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_20
-  subrepo: community
-  srcname: blender
-  binname: py3-blender
-  visiblename: py3-blender
-  version: 4.1.1
-  origversion: 4.1.1-r2
-  status: outdated
-  summary: Blender modules for Python 3
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_20
-  subrepo: community
-  srcname: blender
-  binname: blender
-  visiblename: blender
-  version: 4.1.1
-  origversion: 4.1.1-r2
-  status: outdated
-  summary: 3D Creation/Animation/Publishing System
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_20
-  subrepo: community
-  srcname: blender
-  binname: blender-doc
-  visiblename: blender-doc
-  version: 4.1.1
-  origversion: 4.1.1-r2
-  status: outdated
-  summary: 3D Creation/Animation/Publishing System (documentation)
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: deepin_23
-  subrepo: community
-  srcname: blender
-  binnames:
-    - blender
-    - blender-data
-  visiblename: blender
-  version: 4.1.1
-  origversion: 4.1.1+dfsg-3
-  status: outdated
-  maintainers:
-    - debian-multimedia@lists.debian.org
-    - mfv@debian.org
-  categories:
-    - graphics
-- repo: alpine_3_20
-  subrepo: community
-  srcname: blender
-  binname: blender-headless
-  visiblename: blender-headless
-  version: 4.1.1
-  origversion: 4.1.1-r2
-  status: outdated
-  summary: 3D Creation/Animation/Publishing System (headless build)
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_20
-  subrepo: community
-  srcname: blender
-  binname: blender-shared
-  visiblename: blender-shared
-  version: 4.1.1
-  origversion: 4.1.1-r2
-  status: outdated
-  summary: Blender shared runtime data and add-on scripts
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_21
-  subrepo: community
-  srcname: blender
-  binname: blender
-  visiblename: blender
-  version: 4.3.0
-  origversion: 4.3.0-r0
-  status: outdated
-  summary: 3D Creation/Animation/Publishing System
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_21
-  subrepo: community
-  srcname: blender
-  binname: blender-doc
-  visiblename: blender-doc
-  version: 4.3.0
-  origversion: 4.3.0-r0
-  status: outdated
-  summary: 3D Creation/Animation/Publishing System (documentation)
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_21
-  subrepo: community
-  srcname: blender
-  binname: blender-headless
-  visiblename: blender-headless
-  version: 4.3.0
-  origversion: 4.3.0-r0
-  status: outdated
-  summary: 3D Creation/Animation/Publishing System (headless build)
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_21
-  subrepo: community
-  srcname: blender
-  binname: blender-shared
-  visiblename: blender-shared
-  version: 4.3.0
-  origversion: 4.3.0-r0
-  status: outdated
-  summary: Blender shared runtime data and add-on scripts
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_21
-  subrepo: community
-  srcname: blender
-  binname: py3-blender
-  visiblename: py3-blender
-  version: 4.3.0
-  origversion: 4.3.0-r0
-  status: outdated
-  summary: Blender modules for Python 3
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_22
-  subrepo: community
-  srcname: blender
-  binname: py3-blender
-  visiblename: py3-blender
-  version: 4.4.3
-  origversion: 4.4.3-r0
-  status: outdated
-  summary: Blender modules for Python 3
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_22
-  subrepo: community
-  srcname: blender
-  binname: blender
-  visiblename: blender
-  version: 4.4.3
-  origversion: 4.4.3-r0
-  status: outdated
-  summary: 3D Creation/Animation/Publishing System
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_22
-  subrepo: community
-  srcname: blender
-  binname: blender-doc
-  visiblename: blender-doc
-  version: 4.4.3
-  origversion: 4.4.3-r0
-  status: outdated
-  summary: 3D Creation/Animation/Publishing System (documentation)
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_22
-  subrepo: community
-  srcname: blender
-  binname: blender-headless
-  visiblename: blender-headless
-  version: 4.4.3
-  origversion: 4.4.3-r0
-  status: outdated
-  summary: 3D Creation/Animation/Publishing System (headless build)
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_22
-  subrepo: community
-  srcname: blender
-  binname: blender-shared
-  visiblename: blender-shared
-  version: 4.4.3
-  origversion: 4.4.3-r0
-  status: outdated
-  summary: Blender shared runtime data and add-on scripts
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_23
-  subrepo: community
-  srcname: blender
-  binname: blender
-  visiblename: blender
-  version: 5.0.0
-  origversion: 5.0.0-r0
-  status: outdated
-  summary: 3D Creation/Animation/Publishing System
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_23
-  subrepo: community
-  srcname: blender
-  binname: blender-doc
-  visiblename: blender-doc
-  version: 5.0.0
-  origversion: 5.0.0-r0
-  status: outdated
-  summary: 3D Creation/Animation/Publishing System (documentation)
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_23
-  subrepo: community
-  srcname: blender
-  binname: blender-headless
-  visiblename: blender-headless
-  version: 5.0.0
-  origversion: 5.0.0-r0
-  status: outdated
-  summary: 3D Creation/Animation/Publishing System (headless build)
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_23
-  subrepo: community
-  srcname: blender
-  binname: blender-shared
-  visiblename: blender-shared
-  version: 5.0.0
-  origversion: 5.0.0-r0
-  status: outdated
-  summary: Blender shared runtime data and add-on scripts
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_23
-  subrepo: community
-  srcname: blender
-  binname: py3-blender
-  visiblename: py3-blender
-  version: 5.0.0
-  origversion: 5.0.0-r0
-  status: outdated
-  summary: Blender modules for Python 3
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_24
-  subrepo: community
-  srcname: blender
-  binname: blender
-  visiblename: blender
-  version: 5.1.2
-  origversion: 5.1.2-r0
-  status: outdated
-  summary: 3D Creation/Animation/Publishing System
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_24
-  subrepo: community
-  srcname: blender
-  binname: blender-doc
-  visiblename: blender-doc
-  version: 5.1.2
-  origversion: 5.1.2-r0
-  status: outdated
-  summary: 3D Creation/Animation/Publishing System (documentation)
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: deepin_25
-  subrepo: community
-  srcname: blender
-  binnames:
-    - blender
-    - blender-data
-  visiblename: blender
-  version: 4.3.2
-  origversion: 4.3.2+dfsg-2deepin1
-  status: outdated
-  maintainers:
-    - debian-multimedia@lists.debian.org
-    - mfv@debian.org
-- repo: alpine_3_24
-  subrepo: community
-  srcname: blender
-  binname: blender-headless
-  visiblename: blender-headless
-  version: 5.1.2
-  origversion: 5.1.2-r0
-  status: outdated
-  summary: 3D Creation/Animation/Publishing System (headless build)
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_24
-  subrepo: community
-  srcname: blender
-  binname: blender-shared
-  visiblename: blender-shared
-  version: 5.1.2
-  origversion: 5.1.2-r0
-  status: outdated
-  summary: Blender shared runtime data and add-on scripts
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_24
-  subrepo: community
-  srcname: blender
-  binname: py3-blender
-  visiblename: py3-blender
-  version: 5.1.2
-  origversion: 5.1.2-r0
-  status: outdated
-  summary: Blender modules for Python 3
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_edge
-  subrepo: community
-  srcname: blender
-  binname: py3-blender
-  visiblename: py3-blender
-  version: 5.2.2
-  origversion: 5.2.2-r2
-  status: outdated
-  summary: Blender modules for Python 3
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: nix_stable_24_05
-  srcname: blender
-  visiblename: blender
-  version: 4.1.1
-  origversion: null
-  status: outdated
-  summary: 3D Creation/Animation/Publishing System
-  maintainers:
-    - cillian.deroiste@gmail.com
-    - veprbl@gmail.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_edge
-  subrepo: community
-  srcname: blender
-  binname: blender-doc
-  visiblename: blender-doc
-  version: 5.2.2
-  origversion: 5.2.2-r2
-  status: outdated
-  summary: 3D Creation/Animation/Publishing System (documentation)
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_edge
-  subrepo: community
-  srcname: blender
-  binname: blender-headless
-  visiblename: blender-headless
-  version: 5.2.2
-  origversion: 5.2.2-r2
-  status: outdated
-  summary: 3D Creation/Animation/Publishing System (headless build)
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_edge
-  subrepo: community
-  srcname: blender
-  binname: blender-shared
-  visiblename: blender-shared
-  version: 5.2.2
-  origversion: 5.2.2-r2
-  status: outdated
-  summary: Blender shared runtime data and add-on scripts
-  maintainers:
-    - main@lmarz.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alt_p11
-  srcname: blender
-  binnames:
-    - blender
-    - blender-cycles-cuda-kernels
-    - blender-cycles-hip-kernels
-    - blender-cycles-hiprt-kernels
-    - blender-debuginfo
-    - blender-doc
-  visiblename: blender
-  version: 4.5.14
-  origversion: 4.5.14-alt1
-  status: outdated
-  summary: 3D modeling, animation, rendering and post-production
-  maintainers:
-    - rider@altlinux.org
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - Graphics
-- repo: altsisyphus
-  srcname: blender
-  binnames:
-    - blender
-    - blender-cycles-cuda-kernels
-    - blender-cycles-hip-kernels
-    - blender-cycles-hiprt-kernels
-    - blender-debuginfo
-    - blender-doc
-  visiblename: blender
-  version: 4.5.14
-  origversion: 4.5.14-alt2
-  status: outdated
-  summary: 3D modeling, animation, rendering and post-production
-  maintainers:
-    - fidel@altlinux.org
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - Graphics
-- repo: aosc
-  srcname: app-creativity/blender
-  binname: blender
-  visiblename: blender
-  version: 5.2.0
-  origversion: 5.2.0-2
-  status: outdated
-  summary: Integrated 3D graphics creation suite
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - graphics
-- repo: arch
-  subrepo: extra
-  srcname: blender
-  binname: blender
-  visiblename: blender
-  version: 5.2.3
-  origversion: 17:5.2.3-1
-  status: newest
-  summary: A fully integrated 3D graphics creation suite
-  licenses:
-    - Apache-2.0
-    - BSD-2-Clause
-    - BSD-3-Clause
-    - GPL-2.0-or-later
-    - GPL-3.0-or-later
-    - LGPL-2.1-or-later
-    - MIT
-    - MPL-2.0
-    - Zlib
-- repo: aur
-  srcname: blender-2.83-git
-  binname: blender-2.83-git
-  visiblename: blender-2.83-git
-  version: 2.83.20.r0.ga56e2faeb7a
-  origversion: 2.83.20.r0.ga56e2faeb7a-1
-  status: rolling
-  summary: LTS Maintenance version of blender-v2.83-release branch
-  maintainers:
-    - bartus@aur
-  licenses:
-    - GPL
-- repo: aur
-  srcname: blender-2.93-git
-  binname: blender-2.93-git
-  visiblename: blender-2.93-git
-  version: 2.93.r105893.gd52a0fa1159
-  origversion: 2.93.r105893.gd52a0fa1159-1
-  status: rolling
-  summary: Maintenance version of Blender v2.93 branch
-  maintainers:
-    - bartus@aur
-  licenses:
-    - GPL
-- repo: aur
-  srcname: blender-3.0-git
-  binname: blender-3.0-git
-  visiblename: blender-3.0-git
-  version: 3.0.r109941.g348d7c35a9f
-  origversion: 3.0.r109941.g348d7c35a9f-1
-  status: rolling
-  summary: Maintenance version of Blender v3.0 branch
-  maintainers:
-    - bartus@aur
-  licenses:
-    - GPL
-- repo: aur
-  srcname: blender-3.3-bin
-  binname: blender-3.3-bin
-  visiblename: blender-3.3-bin
-  version: 3.3.231115.f0cc0a89efa2
-  origversion: 3.3.231115.f0cc0a89efa2-1
-  status: legacy
-  summary: A fully integrated 3D graphics creation suite
-  maintainers:
-    - notfood@aur
-  licenses:
-    - GPL
-- repo: pclinuxos
-  srcname: blender
-  visiblename: blender
-  version: 5.1.2
-  origversion: 5.1.2-1pclos2026
-  status: outdated
-  summary: 3D modeling, animation, rendering and post-production
-  categories:
-    - Graphics
-- repo: aur
-  srcname: blender-3.6-bin
-  binname: blender-3.6-bin
-  visiblename: blender-3.6-bin
-  version: 3.6.231115.76cf464098be
-  origversion: 3.6.231115.76cf464098be-1
-  status: legacy
-  summary: A fully integrated 3D graphics creation suite
-  maintainers:
-    - notfood@aur
-  licenses:
-    - GPL
-- repo: aur
-  srcname: blender-4.2-bin
-  binname: blender-4.2-bin
-  visiblename: blender-4.2-bin
-  version: 4.2.240710.a2ba481c7110
-  origversion: 4.2.240710.a2ba481c7110-1
-  status: legacy
-  summary: A fully integrated 3D graphics creation suite
-  maintainers:
-    - notfood@aur
-  licenses:
-    - GPL
-- repo: aur
-  srcname: blender-4.3-bin
-  binname: blender-4.3-bin
-  visiblename: blender-4.3-bin
-  version: 4.3.240704.addf1fa84b75
-  origversion: 4.3.240704.addf1fa84b75-1
-  status: legacy
-  summary: A fully integrated 3D graphics creation suite
-  maintainers:
-    - notfood@aur
-  licenses:
-    - GPL
-- repo: aur
-  srcname: blender-bin
-  binname: blender-bin
-  visiblename: blender-bin
-  version: 5.2.3
-  origversion: 5.2.3-1
-  status: newest
-  summary: A fully integrated 3D graphics creation suite (with packaged libraries and python3.11)
-  maintainers:
-    - hurricanepootis@aur
-  licenses:
-    - Apache-2.0
-    - Bitstream-Vera
-    - BSD-2-Clause
-    - BSD-3-Clause
-    - BSL-1.0
-    - bzip2-1.0.6
-    - FTL
-    - GPL-2.0-or-later
-    - GPL-3.0-or-later
-    - LGPL-2.1-or-later
-    - LGPL-3.0-or-later
-    - libpng-2.0
-    - libtiff
-    - LicenseRef-Arev-Fonts
-    - LicenseRef-ICS
-    - LicenseRef-LLVM-exception
-    - LicenseRef-TOST-1.0
-    - MIT
-    - MIT-Khronos-Old
-    - MPL-2.0
-    - NCSA
-    - OFL-1.1
-    - Python-2.0
-    - SGI-B-2.0
-    - zlib
-- repo: aur
-  srcname: blender-lts-bin
-  binname: blender-lts-bin
-  visiblename: blender-lts-bin
-  version: 5.2.3
-  origversion: 5.2.3-1
-  status: newest
-  summary: LTS blender version
-  maintainers:
-    - yrds@aur
-  licenses:
-    - GPL
-- repo: aur
-  srcname: blender-develop-git
-  binname: blender-develop-git
-  visiblename: blender-develop-git
-  version: 5.2.r160926.g54ebd89a64c
-  origversion: 5.2.r160926.g54ebd89a64c-1
-  status: rolling
-  summary: Development version of Blender (non-conflicting version)
-  maintainers:
-    - bartus@aur
-  licenses:
-    - GPL
-- repo: aur
-  srcname: blender-git
-  binname: blender-git
-  visiblename: blender-git
-  version: 5.3.r163133.gc9dd766ce9c2
-  origversion: 5.3.r163133.gc9dd766ce9c2-1
-  status: rolling
-  summary: A fully integrated 3D graphics creation suite (development)
-  maintainers:
-    - fbrennan@aur
-    - bartus@aur
-  licenses:
-    - GPL
-- repo: artix
-  subrepo: galaxy
-  srcname: blender
-  binname: blender
-  visiblename: blender
-  version: 5.2.2
-  origversion: 17:5.2.2-3
-  status: outdated
-  summary: A fully integrated 3D graphics creation suite
-  licenses:
-    - Apache-2.0
-    - BSD-2-Clause
-    - BSD-3-Clause
-    - GPL-2.0-or-later
-    - GPL-3.0-or-later
-    - LGPL-2.1-or-later
-    - MIT
-    - MPL-2.0
-    - Zlib
-- repo: chimera
-  subrepo: main
-  srcname: blender
-  binname: blender
-  visiblename: blender
-  version: 5.1.2
-  origversion: 5.1.2-r3
-  status: outdated
-  summary: 3D creation suite
-  licenses:
-    - GPL-2.0-or-later
-- repo: chimera
-  subrepo: main
-  srcname: blender
-  binname: blender-doc
-  visiblename: blender-doc
-  version: 5.1.2
-  origversion: 5.1.2-r3
-  status: outdated
-  summary: 3D creation suite (documentation)
-  licenses:
-    - GPL-2.0-or-later
-- repo: chimera
-  subrepo: main
-  srcname: blender
-  binname: blender-man
-  visiblename: blender-man
-  version: 5.1.2
-  origversion: 5.1.2-r3
-  status: outdated
-  summary: 3D creation suite (manual pages)
-  licenses:
-    - GPL-2.0-or-later
-- repo: chimera
-  subrepo: main
-  srcname: blender
-  binname: blender-pycache
-  visiblename: blender-pycache
-  version: 5.1.2
-  origversion: 5.1.2-r3
-  status: outdated
-  summary: 3D creation suite (Python bytecode)
-  licenses:
-    - GPL-2.0-or-later
-- repo: chocolatey
-  binname: blender
-  visiblename: Blender
-  version: 5.2.2
-  origversion: null
-  status: outdated
-  summary: Blender is 3D creation for everyone, free to use for any purpose.
-- repo: chromebrew
-  srcname: blender
-  visiblename: blender
-  version: 5.0.0
-  origversion: null
-  status: outdated
-  summary: Blender is the free and open source 3D creation suite.
-  licenses:
-    - GPLv3+
-- repo: debian_12
-  subrepo: bookworm/main
-  srcname: blender
-  binnames:
-    - blender
-    - blender-data
-  visiblename: blender
-  version: 3.4.1
-  origversion: 3.4.1+dfsg-2
-  status: outdated
-  maintainers:
-    - debian-multimedia@lists.debian.org
-    - mfv@debian.org
-  categories:
-    - graphics
-- repo: debian_13
-  subrepo: trixie/main
-  srcname: blender
-  binnames:
-    - blender
-    - blender-data
-  visiblename: blender
-  version: 4.3.2
-  origversion: 4.3.2+dfsg-2
-  status: outdated
-  maintainers:
-    - debian-multimedia@lists.debian.org
-    - mfv@debian.org
-  categories:
-    - graphics
 - repo: debian_14
   subrepo: forky/main
   srcname: blender
@@ -1051,6 +60,34 @@
     - mfv@debian.org
   categories:
     - graphics
+- repo: deepin_23
+  subrepo: community
+  srcname: blender
+  binnames:
+    - blender
+    - blender-data
+  visiblename: blender
+  version: 4.1.1
+  origversion: 4.1.1+dfsg-3
+  status: outdated
+  maintainers:
+    - debian-multimedia@lists.debian.org
+    - mfv@debian.org
+  categories:
+    - graphics
+- repo: deepin_25
+  subrepo: community
+  srcname: blender
+  binnames:
+    - blender
+    - blender-data
+  visiblename: blender
+  version: 4.3.2
+  origversion: 4.3.2+dfsg-2deepin1
+  status: outdated
+  maintainers:
+    - debian-multimedia@lists.debian.org
+    - mfv@debian.org
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: blender
@@ -1194,21 +231,6 @@
   categories:
     - Unspecified
 - repo: fedora_42
-  subrepo: release
-  srcname: blender
-  binnames:
-    - blender
-    - blender-rpm-macros
-  visiblename: blender
-  version: 4.4.0
-  origversion: 1:4.4.0-3.fc42
-  status: legacy
-  summary: 3D modeling, animation, rendering and post-production
-  licenses:
-    - Apache-2.0 AND BSD-3-Clause AND GPL-2.0-or-later AND GPL-3.0-or-later AND Zlib
-  categories:
-    - Unspecified
-- repo: fedora_42
   subrepo: updates
   srcname: blender
   binnames:
@@ -1223,28 +245,16 @@
     - Apache-2.0 AND BSD-3-Clause AND GPL-2.0-or-later AND GPL-3.0-or-later AND Zlib
   categories:
     - Unspecified
-- repo: nix_stable_24_05
-  srcname: blender-hip
-  visiblename: blender
-  version: 4.1.1
-  origversion: null
-  status: outdated
-  summary: 3D Creation/Animation/Publishing System
-  maintainers:
-    - cillian.deroiste@gmail.com
-    - veprbl@gmail.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: fedora_43
-  subrepo: updates
+- repo: fedora_42
+  subrepo: release
   srcname: blender
   binnames:
     - blender
     - blender-rpm-macros
   visiblename: blender
-  version: 5.1.2
-  origversion: 1:5.1.2-2.fc43
-  status: outdated
+  version: 4.4.0
+  origversion: 1:4.4.0-3.fc42
+  status: legacy
   summary: 3D modeling, animation, rendering and post-production
   licenses:
     - Apache-2.0 AND BSD-3-Clause AND GPL-2.0-or-later AND GPL-3.0-or-later AND Zlib
@@ -1260,6 +270,21 @@
   version: 4.5.3
   origversion: 1:4.5.3-1.fc43
   status: legacy
+  summary: 3D modeling, animation, rendering and post-production
+  licenses:
+    - Apache-2.0 AND BSD-3-Clause AND GPL-2.0-or-later AND GPL-3.0-or-later AND Zlib
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: updates
+  srcname: blender
+  binnames:
+    - blender
+    - blender-rpm-macros
+  visiblename: blender
+  version: 5.1.2
+  origversion: 1:5.1.2-2.fc43
+  status: outdated
   summary: 3D modeling, animation, rendering and post-production
   licenses:
     - Apache-2.0 AND BSD-3-Clause AND GPL-2.0-or-later AND GPL-3.0-or-later AND Zlib
@@ -1522,18 +547,6 @@
     - GPL-3+ cycles? ( Apache-2.0 ) CC0-1.0
   categories:
     - media-gfx
-- repo: nix_stable_24_11
-  srcname: blender
-  visiblename: blender
-  version: 4.2.3
-  origversion: null
-  status: outdated
-  summary: 3D Creation/Animation/Publishing System
-  maintainers:
-    - andrew@johnandrewmarshall.com
-    - veprbl@gmail.com
-  licenses:
-    - GPL-2.0-or-later
 - repo: gentoo
   srcname: media-gfx/blender-bin
   visiblename: media-gfx/blender-bin
@@ -1627,20 +640,6 @@
   status: outdated
   categories:
     - media-gfx
-- repo: homebrew_casks
-  srcname: blender
-  visiblename: Blender
-  version: 5.2.3
-  origversion: null
-  status: newest
-  summary: 3D creation suite
-- repo: homebrew_casks
-  srcname: blender@lts
-  visiblename: Blender LTS
-  version: 5.2.2
-  origversion: null
-  status: legacy
-  summary: 3D creation suite
 - repo: kali_rolling
   subrepo: main
   srcname: blender
@@ -2120,16 +1119,6 @@
     - Apache-2.0
   categories:
     - media-gfx
-- repo: msys2_ucrt64
-  srcname: mingw-w64-blender
-  binname: mingw-w64-ucrt-x86_64-blender
-  visiblename: mingw-w64-ucrt-x86_64-blender
-  version: 5.2.3
-  origversion: 5.2.3-1
-  status: newest
-  summary: A fully integrated 3D graphics creation suite (mingw-w64)
-  licenses:
-    - spdx:GPL-2.0-or-later
 - repo: liguros_develop
   srcname: media-gfx/blender-bin
   visiblename: media-gfx/blender-bin
@@ -2313,6 +1302,66 @@
   summary: A fully integrated 3D graphics creation suite (mingw-w64)
   licenses:
     - spdx:GPL-2.0-or-later
+- repo: msys2_ucrt64
+  srcname: mingw-w64-blender
+  binname: mingw-w64-ucrt-x86_64-blender
+  visiblename: mingw-w64-ucrt-x86_64-blender
+  version: 5.2.3
+  origversion: 5.2.3-1
+  status: newest
+  summary: A fully integrated 3D graphics creation suite (mingw-w64)
+  licenses:
+    - spdx:GPL-2.0-or-later
+- repo: mx_25_testing
+  srcname: blender
+  binnames:
+    - blender
+    - blender-data
+  visiblename: blender
+  version: 5.0.1
+  origversion: 5.0.1+dfsg-1~mx25+1
+  status: outdated
+  maintainers:
+    - stevep@mxlinux.org
+    - daniel@debian.org
+  categories:
+    - graphics
+- repo: nix_stable_24_05
+  srcname: blender
+  visiblename: blender
+  version: 4.1.1
+  origversion: null
+  status: outdated
+  summary: 3D Creation/Animation/Publishing System
+  maintainers:
+    - cillian.deroiste@gmail.com
+    - veprbl@gmail.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: nix_stable_24_05
+  srcname: blender-hip
+  visiblename: blender
+  version: 4.1.1
+  origversion: null
+  status: outdated
+  summary: 3D Creation/Animation/Publishing System
+  maintainers:
+    - cillian.deroiste@gmail.com
+    - veprbl@gmail.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: nix_stable_24_11
+  srcname: blender
+  visiblename: blender
+  version: 4.2.3
+  origversion: null
+  status: outdated
+  summary: 3D Creation/Animation/Publishing System
+  maintainers:
+    - andrew@johnandrewmarshall.com
+    - veprbl@gmail.com
+  licenses:
+    - GPL-2.0-or-later
 - repo: nix_stable_24_11
   srcname: blender-hip
   visiblename: blender
@@ -2341,30 +1390,6 @@
   srcname: blender-hip
   visiblename: blender
   version: 4.4.3
-  origversion: null
-  status: outdated
-  summary: 3D Creation/Animation/Publishing System
-  maintainers:
-    - andrew@johnandrewmarshall.com
-    - veprbl@gmail.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: nix_stable_25_11
-  srcname: blender
-  visiblename: blender
-  version: 5.0.1
-  origversion: null
-  status: outdated
-  summary: 3D Creation/Animation/Publishing System
-  maintainers:
-    - andrew@johnandrewmarshall.com
-    - veprbl@gmail.com
-  licenses:
-    - GPL-2.0-or-later
-- repo: nix_stable_25_11
-  srcname: blender-hip
-  visiblename: blender
-  version: 5.0.1
   origversion: null
   status: outdated
   summary: 3D Creation/Animation/Publishing System
@@ -2888,7 +1913,18 @@
   visiblename: Blender 64 bit
   version: 5.2.2
   origversion: null
-  status: outdated
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+- repo: npackd_stable64
+  srcname: org.blender.Blender64
+  binname: org.blender.Blender64
+  visiblename: Blender 64 bit
+  version: 5.2.3
+  origversion: null
+  status: newest
   licenses:
     - GPLv2
   categories:
@@ -3109,6 +2145,16 @@
     - GPL-2.0-or-later
   categories:
     - Productivity/Graphics/3D Editors
+- repo: slackbuilds
+  srcname: graphics/Blender
+  visiblename: graphics/Blender
+  version: 5.2.2
+  origversion: null
+  status: outdated
+  maintainers:
+    - chris.willing@linux.com
+  categories:
+    - graphics
 - repo: opensuse_graphics_tumbleweed
   srcname: blender-5.2
   binnames:
@@ -3164,12 +2210,12 @@
 - repo: parabola
   subrepo: libre
   srcname: blender
-  binname: blender
-  visiblename: blender
+  binname: blender-debug
+  visiblename: blender-debug
   version: 4.5.3
   origversion: 17:4.5.3-5.parabola1
   status: outdated
-  summary: A fully integrated 3D graphics creation suite
+  summary: Detached debugging symbols for blender
   licenses:
     - Apache-2.0
     - BSD-2-Clause
@@ -3183,12 +2229,12 @@
 - repo: parabola
   subrepo: libre
   srcname: blender
-  binname: blender-debug
-  visiblename: blender-debug
+  binname: blender
+  visiblename: blender
   version: 4.5.3
   origversion: 17:4.5.3-5.parabola1
   status: outdated
-  summary: Detached debugging symbols for blender
+  summary: A fully integrated 3D graphics creation suite
   licenses:
     - Apache-2.0
     - BSD-2-Clause
@@ -3261,6 +2307,15 @@
     - mfv@debian.org
   categories:
     - graphics
+- repo: pclinuxos
+  srcname: blender
+  visiblename: blender
+  version: 5.1.2
+  origversion: 5.1.2-1pclos2026
+  status: outdated
+  summary: 3D modeling, animation, rendering and post-production
+  categories:
+    - Graphics
 - repo: pisi_main
   subrepo: main
   srcname: multimedia/editor/blender
@@ -3347,6 +2402,12 @@
     - pkgsrc-users@netbsd.org
   categories:
     - graphics
+- repo: pld
+  srcname: blender
+  visiblename: blender
+  version: 5.0.0
+  origversion: 5.0.0-1
+  status: outdated
 - repo: pureos_landing
   subrepo: landing/main
   srcname: blender
@@ -3465,16 +2526,6 @@
   status: legacy
   maintainers:
     - jebrhansen+sbo@gmail.com
-  categories:
-    - graphics
-- repo: slackbuilds
-  srcname: graphics/Blender
-  visiblename: graphics/Blender
-  version: 5.2.2
-  origversion: null
-  status: outdated
-  maintainers:
-    - chris.willing@linux.com
   categories:
     - graphics
 - repo: solus
@@ -3637,11 +2688,1211 @@
   summary: 3D computer graphics software (free and open-source)
   licenses:
     - GNU General Public License, version 3.0
+- repo: nix_stable_25_11
+  srcname: blender
+  visiblename: blender
+  version: 5.0.1
+  origversion: null
+  status: outdated
+  summary: 3D Creation/Animation/Publishing System
+  maintainers:
+    - andrew@johnandrewmarshall.com
+    - veprbl@gmail.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: nix_stable_25_11
+  srcname: blender-hip
+  visiblename: blender
+  version: 5.0.1
+  origversion: null
+  status: outdated
+  summary: 3D Creation/Animation/Publishing System
+  maintainers:
+    - andrew@johnandrewmarshall.com
+    - veprbl@gmail.com
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_17
+  subrepo: community
+  srcname: blender
+  binname: blender
+  visiblename: blender
+  version: 3.3.1
+  origversion: 3.3.1-r4
+  status: outdated
+  summary: 3D Creation/Animation/Publishing System
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_17
+  subrepo: community
+  srcname: blender
+  binname: blender-shared
+  visiblename: blender-shared
+  version: 3.3.1
+  origversion: 3.3.1-r4
+  status: outdated
+  summary: Blender shared runtime data and add-on scripts
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_17
+  subrepo: community
+  srcname: blender
+  binname: blender-doc
+  visiblename: blender-doc
+  version: 3.3.1
+  origversion: 3.3.1-r4
+  status: outdated
+  summary: 3D Creation/Animation/Publishing System (documentation)
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_17
+  subrepo: community
+  srcname: blender
+  binname: blender-headless
+  visiblename: blender-headless
+  version: 3.3.1
+  origversion: 3.3.1-r4
+  status: outdated
+  summary: 3D Creation/Animation/Publishing System (headless build)
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_17
+  subrepo: community
+  srcname: blender
+  binname: py3-blender
+  visiblename: py3-blender
+  version: 3.3.1
+  origversion: 3.3.1-r4
+  status: outdated
+  summary: Blender modules for Python 3
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_18
+  subrepo: community
+  srcname: blender
+  binname: blender
+  visiblename: blender
+  version: 3.5.1
+  origversion: 3.5.1-r0
+  status: outdated
+  summary: 3D Creation/Animation/Publishing System
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_18
+  subrepo: community
+  srcname: blender
+  binname: blender-doc
+  visiblename: blender-doc
+  version: 3.5.1
+  origversion: 3.5.1-r0
+  status: outdated
+  summary: 3D Creation/Animation/Publishing System (documentation)
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_18
+  subrepo: community
+  srcname: blender
+  binname: blender-headless
+  visiblename: blender-headless
+  version: 3.5.1
+  origversion: 3.5.1-r0
+  status: outdated
+  summary: 3D Creation/Animation/Publishing System (headless build)
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_18
+  subrepo: community
+  srcname: blender
+  binname: blender-shared
+  visiblename: blender-shared
+  version: 3.5.1
+  origversion: 3.5.1-r0
+  status: outdated
+  summary: Blender shared runtime data and add-on scripts
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_18
+  subrepo: community
+  srcname: blender
+  binname: py3-blender
+  visiblename: py3-blender
+  version: 3.5.1
+  origversion: 3.5.1-r0
+  status: outdated
+  summary: Blender modules for Python 3
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_19
+  subrepo: community
+  srcname: blender
+  binname: blender
+  visiblename: blender
+  version: 4.0.1
+  origversion: 4.0.1-r2
+  status: outdated
+  summary: 3D Creation/Animation/Publishing System
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_19
+  subrepo: community
+  srcname: blender
+  binname: blender-doc
+  visiblename: blender-doc
+  version: 4.0.1
+  origversion: 4.0.1-r2
+  status: outdated
+  summary: 3D Creation/Animation/Publishing System (documentation)
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_19
+  subrepo: community
+  srcname: blender
+  binname: blender-headless
+  visiblename: blender-headless
+  version: 4.0.1
+  origversion: 4.0.1-r2
+  status: outdated
+  summary: 3D Creation/Animation/Publishing System (headless build)
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_19
+  subrepo: community
+  srcname: blender
+  binname: blender-shared
+  visiblename: blender-shared
+  version: 4.0.1
+  origversion: 4.0.1-r2
+  status: outdated
+  summary: Blender shared runtime data and add-on scripts
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_19
+  subrepo: community
+  srcname: blender
+  binname: py3-blender
+  visiblename: py3-blender
+  version: 4.0.1
+  origversion: 4.0.1-r2
+  status: outdated
+  summary: Blender modules for Python 3
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_20
+  subrepo: community
+  srcname: blender
+  binname: blender
+  visiblename: blender
+  version: 4.1.1
+  origversion: 4.1.1-r2
+  status: outdated
+  summary: 3D Creation/Animation/Publishing System
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_20
+  subrepo: community
+  srcname: blender
+  binname: blender-doc
+  visiblename: blender-doc
+  version: 4.1.1
+  origversion: 4.1.1-r2
+  status: outdated
+  summary: 3D Creation/Animation/Publishing System (documentation)
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_20
+  subrepo: community
+  srcname: blender
+  binname: blender-headless
+  visiblename: blender-headless
+  version: 4.1.1
+  origversion: 4.1.1-r2
+  status: outdated
+  summary: 3D Creation/Animation/Publishing System (headless build)
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_20
+  subrepo: community
+  srcname: blender
+  binname: blender-shared
+  visiblename: blender-shared
+  version: 4.1.1
+  origversion: 4.1.1-r2
+  status: outdated
+  summary: Blender shared runtime data and add-on scripts
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_20
+  subrepo: community
+  srcname: blender
+  binname: py3-blender
+  visiblename: py3-blender
+  version: 4.1.1
+  origversion: 4.1.1-r2
+  status: outdated
+  summary: Blender modules for Python 3
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_21
+  subrepo: community
+  srcname: blender
+  binname: blender
+  visiblename: blender
+  version: 4.3.0
+  origversion: 4.3.0-r0
+  status: outdated
+  summary: 3D Creation/Animation/Publishing System
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_21
+  subrepo: community
+  srcname: blender
+  binname: blender-doc
+  visiblename: blender-doc
+  version: 4.3.0
+  origversion: 4.3.0-r0
+  status: outdated
+  summary: 3D Creation/Animation/Publishing System (documentation)
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_21
+  subrepo: community
+  srcname: blender
+  binname: blender-headless
+  visiblename: blender-headless
+  version: 4.3.0
+  origversion: 4.3.0-r0
+  status: outdated
+  summary: 3D Creation/Animation/Publishing System (headless build)
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_21
+  subrepo: community
+  srcname: blender
+  binname: blender-shared
+  visiblename: blender-shared
+  version: 4.3.0
+  origversion: 4.3.0-r0
+  status: outdated
+  summary: Blender shared runtime data and add-on scripts
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_21
+  subrepo: community
+  srcname: blender
+  binname: py3-blender
+  visiblename: py3-blender
+  version: 4.3.0
+  origversion: 4.3.0-r0
+  status: outdated
+  summary: Blender modules for Python 3
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_22
+  subrepo: community
+  srcname: blender
+  binname: blender
+  visiblename: blender
+  version: 4.4.3
+  origversion: 4.4.3-r0
+  status: outdated
+  summary: 3D Creation/Animation/Publishing System
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: homebrew_casks
+  srcname: blender
+  visiblename: Blender
+  version: 5.2.3
+  origversion: null
+  status: newest
+  summary: 3D creation suite
+- repo: alpine_3_22
+  subrepo: community
+  srcname: blender
+  binname: blender-doc
+  visiblename: blender-doc
+  version: 4.4.3
+  origversion: 4.4.3-r0
+  status: outdated
+  summary: 3D Creation/Animation/Publishing System (documentation)
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_22
+  subrepo: community
+  srcname: blender
+  binname: blender-headless
+  visiblename: blender-headless
+  version: 4.4.3
+  origversion: 4.4.3-r0
+  status: outdated
+  summary: 3D Creation/Animation/Publishing System (headless build)
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_22
+  subrepo: community
+  srcname: blender
+  binname: blender-shared
+  visiblename: blender-shared
+  version: 4.4.3
+  origversion: 4.4.3-r0
+  status: outdated
+  summary: Blender shared runtime data and add-on scripts
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_22
+  subrepo: community
+  srcname: blender
+  binname: py3-blender
+  visiblename: py3-blender
+  version: 4.4.3
+  origversion: 4.4.3-r0
+  status: outdated
+  summary: Blender modules for Python 3
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_23
+  subrepo: community
+  srcname: blender
+  binname: blender
+  visiblename: blender
+  version: 5.0.0
+  origversion: 5.0.0-r0
+  status: outdated
+  summary: 3D Creation/Animation/Publishing System
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_23
+  subrepo: community
+  srcname: blender
+  binname: blender-doc
+  visiblename: blender-doc
+  version: 5.0.0
+  origversion: 5.0.0-r0
+  status: outdated
+  summary: 3D Creation/Animation/Publishing System (documentation)
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_23
+  subrepo: community
+  srcname: blender
+  binname: blender-headless
+  visiblename: blender-headless
+  version: 5.0.0
+  origversion: 5.0.0-r0
+  status: outdated
+  summary: 3D Creation/Animation/Publishing System (headless build)
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_23
+  subrepo: community
+  srcname: blender
+  binname: blender-shared
+  visiblename: blender-shared
+  version: 5.0.0
+  origversion: 5.0.0-r0
+  status: outdated
+  summary: Blender shared runtime data and add-on scripts
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_23
+  subrepo: community
+  srcname: blender
+  binname: py3-blender
+  visiblename: py3-blender
+  version: 5.0.0
+  origversion: 5.0.0-r0
+  status: outdated
+  summary: Blender modules for Python 3
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_24
+  subrepo: community
+  srcname: blender
+  binname: blender
+  visiblename: blender
+  version: 5.1.2
+  origversion: 5.1.2-r0
+  status: outdated
+  summary: 3D Creation/Animation/Publishing System
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_24
+  subrepo: community
+  srcname: blender
+  binname: blender-doc
+  visiblename: blender-doc
+  version: 5.1.2
+  origversion: 5.1.2-r0
+  status: outdated
+  summary: 3D Creation/Animation/Publishing System (documentation)
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_24
+  subrepo: community
+  srcname: blender
+  binname: blender-headless
+  visiblename: blender-headless
+  version: 5.1.2
+  origversion: 5.1.2-r0
+  status: outdated
+  summary: 3D Creation/Animation/Publishing System (headless build)
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_24
+  subrepo: community
+  srcname: blender
+  binname: blender-shared
+  visiblename: blender-shared
+  version: 5.1.2
+  origversion: 5.1.2-r0
+  status: outdated
+  summary: Blender shared runtime data and add-on scripts
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_24
+  subrepo: community
+  srcname: blender
+  binname: py3-blender
+  visiblename: py3-blender
+  version: 5.1.2
+  origversion: 5.1.2-r0
+  status: outdated
+  summary: Blender modules for Python 3
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_edge
+  subrepo: community
+  srcname: blender
+  binname: blender
+  visiblename: blender
+  version: 5.2.2
+  origversion: 5.2.2-r2
+  status: outdated
+  summary: 3D Creation/Animation/Publishing System
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_edge
+  subrepo: community
+  srcname: blender
+  binname: blender-doc
+  visiblename: blender-doc
+  version: 5.2.2
+  origversion: 5.2.2-r2
+  status: outdated
+  summary: 3D Creation/Animation/Publishing System (documentation)
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_edge
+  subrepo: community
+  srcname: blender
+  binname: blender-headless
+  visiblename: blender-headless
+  version: 5.2.2
+  origversion: 5.2.2-r2
+  status: outdated
+  summary: 3D Creation/Animation/Publishing System (headless build)
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_edge
+  subrepo: community
+  srcname: blender
+  binname: blender-shared
+  visiblename: blender-shared
+  version: 5.2.2
+  origversion: 5.2.2-r2
+  status: outdated
+  summary: Blender shared runtime data and add-on scripts
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_edge
+  subrepo: community
+  srcname: blender
+  binname: py3-blender
+  visiblename: py3-blender
+  version: 5.2.2
+  origversion: 5.2.2-r2
+  status: outdated
+  summary: Blender modules for Python 3
+  maintainers:
+    - main@lmarz.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: homebrew_casks
+  srcname: blender@lts
+  visiblename: Blender LTS
+  version: 5.2.2
+  origversion: null
+  status: legacy
+  summary: 3D creation suite
+- repo: alt_p11
+  srcname: blender
+  binnames:
+    - blender
+    - blender-cycles-cuda-kernels
+    - blender-cycles-hip-kernels
+    - blender-cycles-hiprt-kernels
+    - blender-debuginfo
+    - blender-doc
+  visiblename: blender
+  version: 4.5.14
+  origversion: 4.5.14-alt1
+  status: outdated
+  summary: 3D modeling, animation, rendering and post-production
+  maintainers:
+    - rider@altlinux.org
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Graphics
+- repo: altsisyphus
+  srcname: blender
+  binnames:
+    - blender
+    - blender-cycles-cuda-kernels
+    - blender-cycles-hip-kernels
+    - blender-cycles-hiprt-kernels
+    - blender-debuginfo
+    - blender-doc
+  visiblename: blender
+  version: 4.5.14
+  origversion: 4.5.14-alt2
+  status: outdated
+  summary: 3D modeling, animation, rendering and post-production
+  maintainers:
+    - fidel@altlinux.org
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Graphics
+- repo: aosc
+  srcname: app-creativity/blender
+  binname: blender
+  visiblename: blender
+  version: 5.2.0
+  origversion: 5.2.0-2
+  status: outdated
+  summary: Integrated 3D graphics creation suite
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - graphics
+- repo: arch
+  subrepo: extra
+  srcname: blender
+  binname: blender
+  visiblename: blender
+  version: 5.2.3
+  origversion: 17:5.2.3-3
+  status: newest
+  summary: A fully integrated 3D graphics creation suite
+  licenses:
+    - Apache-2.0
+    - BSD-2-Clause
+    - BSD-3-Clause
+    - GPL-2.0-or-later
+    - GPL-3.0-or-later
+    - LGPL-2.1-or-later
+    - MIT
+    - MPL-2.0
+    - Zlib
+- repo: arch_testing
+  subrepo: extra-testing
+  srcname: blender
+  binname: blender
+  visiblename: blender
+  version: 5.2.3
+  origversion: 17:5.2.3-4
+  status: newest
+  summary: A fully integrated 3D graphics creation suite
+  licenses:
+    - Apache-2.0
+    - BSD-2-Clause
+    - BSD-3-Clause
+    - GPL-2.0-or-later
+    - GPL-3.0-or-later
+    - LGPL-2.1-or-later
+    - MIT
+    - MPL-2.0
+    - Zlib
+- repo: aur
+  srcname: blender-2.83-git
+  binname: blender-2.83-git
+  visiblename: blender-2.83-git
+  version: 2.83.20.r0.ga56e2faeb7a
+  origversion: 2.83.20.r0.ga56e2faeb7a-1
+  status: rolling
+  summary: LTS Maintenance version of blender-v2.83-release branch
+  maintainers:
+    - bartus@aur
+  licenses:
+    - GPL
+- repo: aur
+  srcname: blender-2.93-git
+  binname: blender-2.93-git
+  visiblename: blender-2.93-git
+  version: 2.93.r105893.gd52a0fa1159
+  origversion: 2.93.r105893.gd52a0fa1159-1
+  status: rolling
+  summary: Maintenance version of Blender v2.93 branch
+  maintainers:
+    - bartus@aur
+  licenses:
+    - GPL
+- repo: aur
+  srcname: blender-3.0-git
+  binname: blender-3.0-git
+  visiblename: blender-3.0-git
+  version: 3.0.r109941.g348d7c35a9f
+  origversion: 3.0.r109941.g348d7c35a9f-1
+  status: rolling
+  summary: Maintenance version of Blender v3.0 branch
+  maintainers:
+    - bartus@aur
+  licenses:
+    - GPL
+- repo: aur
+  srcname: blender-3.3-bin
+  binname: blender-3.3-bin
+  visiblename: blender-3.3-bin
+  version: 3.3.231115.f0cc0a89efa2
+  origversion: 3.3.231115.f0cc0a89efa2-1
+  status: legacy
+  summary: A fully integrated 3D graphics creation suite
+  maintainers:
+    - notfood@aur
+  licenses:
+    - GPL
+- repo: aur
+  srcname: blender-3.6-bin
+  binname: blender-3.6-bin
+  visiblename: blender-3.6-bin
+  version: 3.6.231115.76cf464098be
+  origversion: 3.6.231115.76cf464098be-1
+  status: legacy
+  summary: A fully integrated 3D graphics creation suite
+  maintainers:
+    - notfood@aur
+  licenses:
+    - GPL
+- repo: aur
+  srcname: blender-4.2-bin
+  binname: blender-4.2-bin
+  visiblename: blender-4.2-bin
+  version: 4.2.240710.a2ba481c7110
+  origversion: 4.2.240710.a2ba481c7110-1
+  status: legacy
+  summary: A fully integrated 3D graphics creation suite
+  maintainers:
+    - notfood@aur
+  licenses:
+    - GPL
+- repo: aur
+  srcname: blender-4.3-bin
+  binname: blender-4.3-bin
+  visiblename: blender-4.3-bin
+  version: 4.3.240704.addf1fa84b75
+  origversion: 4.3.240704.addf1fa84b75-1
+  status: legacy
+  summary: A fully integrated 3D graphics creation suite
+  maintainers:
+    - notfood@aur
+  licenses:
+    - GPL
+- repo: aur
+  srcname: blender-bin
+  binname: blender-bin
+  visiblename: blender-bin
+  version: 5.2.3
+  origversion: 5.2.3-1
+  status: newest
+  summary: A fully integrated 3D graphics creation suite (with packaged libraries and python3.11)
+  maintainers:
+    - hurricanepootis@aur
+  licenses:
+    - Apache-2.0
+    - Bitstream-Vera
+    - BSD-2-Clause
+    - BSD-3-Clause
+    - BSL-1.0
+    - bzip2-1.0.6
+    - FTL
+    - GPL-2.0-or-later
+    - GPL-3.0-or-later
+    - LGPL-2.1-or-later
+    - LGPL-3.0-or-later
+    - libpng-2.0
+    - libtiff
+    - LicenseRef-Arev-Fonts
+    - LicenseRef-ICS
+    - LicenseRef-LLVM-exception
+    - LicenseRef-TOST-1.0
+    - MIT
+    - MIT-Khronos-Old
+    - MPL-2.0
+    - NCSA
+    - OFL-1.1
+    - Python-2.0
+    - SGI-B-2.0
+    - zlib
+- repo: aur
+  srcname: blender-lts-bin
+  binname: blender-lts-bin
+  visiblename: blender-lts-bin
+  version: 5.2.3
+  origversion: 5.2.3-1
+  status: newest
+  summary: LTS blender version
+  maintainers:
+    - yrds@aur
+  licenses:
+    - GPL
+- repo: aur
+  srcname: blender-develop-git
+  binname: blender-develop-git
+  visiblename: blender-develop-git
+  version: 5.2.r160926.g54ebd89a64c
+  origversion: 5.2.r160926.g54ebd89a64c-1
+  status: rolling
+  summary: Development version of Blender (non-conflicting version)
+  maintainers:
+    - bartus@aur
+  licenses:
+    - GPL
+- repo: aur
+  srcname: blender-git
+  binname: blender-git
+  visiblename: blender-git
+  version: 5.3.r163133.gc9dd766ce9c2
+  origversion: 5.3.r163133.gc9dd766ce9c2-1
+  status: rolling
+  summary: A fully integrated 3D graphics creation suite (development)
+  maintainers:
+    - fbrennan@aur
+    - bartus@aur
+  licenses:
+    - GPL
+- repo: artix
+  subrepo: galaxy
+  srcname: blender
+  binname: blender
+  visiblename: blender
+  version: 5.2.2
+  origversion: 17:5.2.2-3
+  status: outdated
+  summary: A fully integrated 3D graphics creation suite
+  licenses:
+    - Apache-2.0
+    - BSD-2-Clause
+    - BSD-3-Clause
+    - GPL-2.0-or-later
+    - GPL-3.0-or-later
+    - LGPL-2.1-or-later
+    - MIT
+    - MPL-2.0
+    - Zlib
+- repo: chimera
+  subrepo: main
+  srcname: blender
+  binname: blender
+  visiblename: blender
+  version: 5.1.2
+  origversion: 5.1.2-r3
+  status: outdated
+  summary: 3D creation suite
+  licenses:
+    - GPL-2.0-or-later
+- repo: chimera
+  subrepo: main
+  srcname: blender
+  binname: blender-doc
+  visiblename: blender-doc
+  version: 5.1.2
+  origversion: 5.1.2-r3
+  status: outdated
+  summary: 3D creation suite (documentation)
+  licenses:
+    - GPL-2.0-or-later
+- repo: chimera
+  subrepo: main
+  srcname: blender
+  binname: blender-man
+  visiblename: blender-man
+  version: 5.1.2
+  origversion: 5.1.2-r3
+  status: outdated
+  summary: 3D creation suite (manual pages)
+  licenses:
+    - GPL-2.0-or-later
+- repo: chimera
+  subrepo: main
+  srcname: blender
+  binname: blender-pycache
+  visiblename: blender-pycache
+  version: 5.1.2
+  origversion: 5.1.2-r3
+  status: outdated
+  summary: 3D creation suite (Python bytecode)
+  licenses:
+    - GPL-2.0-or-later
+- repo: chocolatey
+  binname: blender
+  visiblename: Blender
+  version: 5.2.2
+  origversion: null
+  status: outdated
+  summary: Blender is 3D creation for everyone, free to use for any purpose.
+- repo: chromebrew
+  srcname: blender
+  visiblename: blender
+  version: 5.0.0
+  origversion: null
+  status: outdated
+  summary: Blender is the free and open source 3D creation suite.
+  licenses:
+    - GPLv3+
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: blender
+  binnames:
+    - blender
+    - blender-data
+  visiblename: blender
+  version: 3.4.1
+  origversion: 3.4.1+dfsg-2
+  status: outdated
+  maintainers:
+    - debian-multimedia@lists.debian.org
+    - mfv@debian.org
+  categories:
+    - graphics
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: blender
+  binnames:
+    - blender
+    - blender-data
+  visiblename: blender
+  version: 4.3.2
+  origversion: 4.3.2+dfsg-2
+  status: outdated
+  maintainers:
+    - debian-multimedia@lists.debian.org
+    - mfv@debian.org
+  categories:
+    - graphics
 - repo: npackd_stable
   srcname: org.blender.Blender
   binname: org.blender.Blender
   visiblename: Blender
-  version: "2.62"
+  version: "2.59"
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.blender.Blender
+  binname: org.blender.Blender
+  visiblename: Blender
+  version: 2.67.2
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.blender.Blender
+  binname: org.blender.Blender
+  visiblename: Blender
+  version: 2.68.1
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: aur
+  srcname: blender-2.7
+  binname: blender-2.7
+  visiblename: blender-2.7
+  version: 2.79b
+  origversion: 2.79b-5
+  status: outdated
+  summary: Keeping Blender 2.79b up-to-date with modern compiler and libs
+  maintainers:
+    - bartus@aur
+  licenses:
+    - GPL
+  vulnerable: true
+- repo: aur
+  srcname: blender-as-py-module
+  binname: blender-as-py-module
+  visiblename: blender-as-py-module
+  version: 2.93.3
+  origversion: 2.93.3-1
+  status: outdated
+  summary: A fully integrated 3D graphics creation suite, to be used as Python module. Useful for programmatic/batch rendering.
+  maintainers:
+    - jagot@aur
+  licenses:
+    - GPL
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.blender.Blender
+  binname: org.blender.Blender
+  visiblename: Blender
+  version: "2.69"
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: debian_11
+  subrepo: bullseye-security/main
+  srcname: blender
+  binnames:
+    - blender
+    - blender-data
+  visiblename: blender
+  version: 2.83.5
+  origversion: 2.83.5+dfsg-5+deb11u1
+  status: outdated
+  maintainers:
+    - debian-multimedia@lists.debian.org
+    - mfv@debian.org
+  categories:
+    - graphics
+  vulnerable: true
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: blender
+  binnames:
+    - blender
+    - blender-data
+  visiblename: blender
+  version: 2.83.5
+  origversion: 2.83.5+dfsg-5+deb11u1
+  status: outdated
+  maintainers:
+    - debian-multimedia@lists.debian.org
+    - mfv@debian.org
+  categories:
+    - graphics
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.blender.Blender
+  binname: org.blender.Blender
+  visiblename: Blender
+  version: "2.70"
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: deepin_unstable
+  subrepo: main
+  srcname: blender
+  binnames:
+    - blender
+    - blender-data
+  visiblename: blender
+  version: 2.79b
+  origversion: 2.79.b+dfsg0-7
+  status: outdated
+  maintainers:
+    - debian-multimedia@lists.debian.org
+    - mfv@debian.org
+  vulnerable: true
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: blender
+  binnames:
+    - blender
+    - blender-data
+  visiblename: blender
+  version: 2.83.5
+  origversion: 2.83.5+dfsg-5+deb11u1
+  status: outdated
+  maintainers:
+    - debian-multimedia@lists.debian.org
+    - mfv@debian.org
+  categories:
+    - graphics
+  vulnerable: true
+- repo: epel_7
+  srcname: blender
+  visiblename: blender
+  version: 2.68a
+  origversion: 1:2.68a-10.el7
+  status: outdated
+  summary: 3D modeling, animation, rendering and post-production
+  licenses:
+    - GPLv2
+  categories:
+    - Applications/Multimedia
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.blender.Blender
+  binname: org.blender.Blender
+  visiblename: Blender
+  version: 2.58.1
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.blender.Blender
+  binname: org.blender.Blender
+  visiblename: Blender
+  version: "2.71"
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: gobolinux
+  srcname: Blender
+  visiblename: Blender
+  version: 2.48a
+  origversion: null
+  status: outdated
+  summary: A very fast and versatile 3D graphics creation suite.
+  licenses:
+    - GNU General Public License (GPL)
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.blender.Blender
+  binname: org.blender.Blender
+  visiblename: Blender
+  version: 2.72.2
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: mx_21_testing
+  srcname: blender
+  binnames:
+    - blender
+    - blender-data
+  visiblename: blender
+  version: 2.93.5
+  origversion: 2.93.5+dfsg-1~mx21+1
+  status: outdated
+  maintainers:
+    - stevep@mxlinux.org
+    - mfv@debian.org
+  categories:
+    - graphics
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.blender.Blender
+  binname: org.blender.Blender
+  visiblename: Blender
+  version: 2.49.2
   origversion: null
   status: legacy
   licenses:
@@ -3677,30 +3928,6 @@
   srcname: org.blender.Blender
   binname: org.blender.Blender
   visiblename: Blender
-  version: 2.58.1
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.blender.Blender
-  binname: org.blender.Blender
-  visiblename: Blender
-  version: "2.59"
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.blender.Blender
-  binname: org.blender.Blender
-  visiblename: Blender
   version: 2.60.1
   origversion: null
   status: legacy
@@ -3725,6 +3952,18 @@
   srcname: org.blender.Blender
   binname: org.blender.Blender
   visiblename: Blender
+  version: "2.62"
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.blender.Blender
+  binname: org.blender.Blender
+  visiblename: Blender
   version: "2.63"
   origversion: null
   status: legacy
@@ -3737,79 +3976,7 @@
   srcname: org.blender.Blender
   binname: org.blender.Blender
   visiblename: Blender
-  version: "2.66"
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.blender.Blender
-  binname: org.blender.Blender
-  visiblename: Blender
-  version: 2.66.1
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.blender.Blender
-  binname: org.blender.Blender
-  visiblename: Blender
-  version: 2.67.2
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.blender.Blender
-  binname: org.blender.Blender
-  visiblename: Blender
-  version: 2.68.1
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.blender.Blender
-  binname: org.blender.Blender
-  visiblename: Blender
-  version: "2.69"
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.blender.Blender
-  binname: org.blender.Blender
-  visiblename: Blender
-  version: "2.70"
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: org.blender.Blender64
-  binname: org.blender.Blender64
-  visiblename: Blender 64 bit
-  version: 2.57.2
+  version: 2.63.1
   origversion: null
   status: legacy
   licenses:
@@ -3841,160 +4008,11 @@
   categories:
     - Productivity
   vulnerable: true
-- repo: aur
-  srcname: blender-2.7
-  binname: blender-2.7
-  visiblename: blender-2.7
-  version: 2.79b
-  origversion: 2.79b-5
-  status: outdated
-  summary: Keeping Blender 2.79b up-to-date with modern compiler and libs
-  maintainers:
-    - bartus@aur
-  licenses:
-    - GPL
-  vulnerable: true
-- repo: aur
-  srcname: blender-as-py-module
-  binname: blender-as-py-module
-  visiblename: blender-as-py-module
-  version: 2.93.3
-  origversion: 2.93.3-1
-  status: outdated
-  summary: A fully integrated 3D graphics creation suite, to be used as Python module. Useful for programmatic/batch rendering.
-  maintainers:
-    - jagot@aur
-  licenses:
-    - GPL
-  vulnerable: true
-- repo: debian_11
-  subrepo: bullseye-security/main
-  srcname: blender
-  binnames:
-    - blender
-    - blender-data
-  visiblename: blender
-  version: 2.83.5
-  origversion: 2.83.5+dfsg-5+deb11u1
-  status: outdated
-  maintainers:
-    - debian-multimedia@lists.debian.org
-    - mfv@debian.org
-  categories:
-    - graphics
-  vulnerable: true
-- repo: debian_11
-  subrepo: bullseye/main
-  srcname: blender
-  binnames:
-    - blender
-    - blender-data
-  visiblename: blender
-  version: 2.83.5
-  origversion: 2.83.5+dfsg-5+deb11u1
-  status: outdated
-  maintainers:
-    - debian-multimedia@lists.debian.org
-    - mfv@debian.org
-  categories:
-    - graphics
-  vulnerable: true
-- repo: deepin_unstable
-  subrepo: main
-  srcname: blender
-  binnames:
-    - blender
-    - blender-data
-  visiblename: blender
-  version: 2.79b
-  origversion: 2.79.b+dfsg0-7
-  status: outdated
-  maintainers:
-    - debian-multimedia@lists.debian.org
-    - mfv@debian.org
-  vulnerable: true
 - repo: npackd_stable
   srcname: org.blender.Blender
   binname: org.blender.Blender
   visiblename: Blender
-  version: "2.80"
-  origversion: null
-  status: outdated
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: blender
-  binnames:
-    - blender
-    - blender-data
-  visiblename: blender
-  version: 2.83.5
-  origversion: 2.83.5+dfsg-5+deb11u1
-  status: outdated
-  maintainers:
-    - debian-multimedia@lists.debian.org
-    - mfv@debian.org
-  categories:
-    - graphics
-  vulnerable: true
-- repo: epel_7
-  srcname: blender
-  visiblename: blender
-  version: 2.68a
-  origversion: 1:2.68a-10.el7
-  status: outdated
-  summary: 3D modeling, animation, rendering and post-production
-  licenses:
-    - GPLv2
-  categories:
-    - Applications/Multimedia
-  vulnerable: true
-- repo: gobolinux
-  srcname: Blender
-  visiblename: Blender
-  version: 2.48a
-  origversion: null
-  status: outdated
-  summary: A very fast and versatile 3D graphics creation suite.
-  licenses:
-    - GNU General Public License (GPL)
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.blender.Blender
-  binname: org.blender.Blender
-  visiblename: Blender
-  version: 2.63.1
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: mx_21_testing
-  srcname: blender
-  binnames:
-    - blender
-    - blender-data
-  visiblename: blender
-  version: 2.93.5
-  origversion: 2.93.5+dfsg-1~mx21+1
-  status: outdated
-  maintainers:
-    - stevep@mxlinux.org
-    - mfv@debian.org
-  categories:
-    - graphics
-  vulnerable: true
-- repo: npackd_stable64
-  srcname: org.blender.Blender64
-  binname: org.blender.Blender64
-  visiblename: Blender 64 bit
-  version: 2.49.2
+  version: "2.66"
   origversion: null
   status: legacy
   licenses:
@@ -4006,31 +4024,7 @@
   srcname: org.blender.Blender
   binname: org.blender.Blender
   visiblename: Blender
-  version: 2.49.2
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.blender.Blender
-  binname: org.blender.Blender
-  visiblename: Blender
-  version: "2.71"
-  origversion: null
-  status: legacy
-  licenses:
-    - GPLv2
-  categories:
-    - Productivity
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.blender.Blender
-  binname: org.blender.Blender
-  visiblename: Blender
-  version: 2.72.2
+  version: 2.66.1
   origversion: null
   status: legacy
   licenses:
@@ -4163,6 +4157,42 @@
   binname: org.blender.Blender
   visiblename: Blender
   version: 2.79.2
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.blender.Blender
+  binname: org.blender.Blender
+  visiblename: Blender
+  version: "2.80"
+  origversion: null
+  status: outdated
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable64
+  srcname: org.blender.Blender64
+  binname: org.blender.Blender64
+  visiblename: Blender 64 bit
+  version: 2.49.2
+  origversion: null
+  status: legacy
+  licenses:
+    - GPLv2
+  categories:
+    - Productivity
+  vulnerable: true
+- repo: npackd_stable64
+  srcname: org.blender.Blender64
+  binname: org.blender.Blender64
+  visiblename: Blender 64 bit
+  version: 2.57.2
   origversion: null
   status: legacy
   licenses:
@@ -4796,38 +4826,6 @@
   categories:
     - Productivity/Graphics/3D Editors
   vulnerable: true
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: blender
-  binnames:
-    - blender
-    - blender-data
-  visiblename: blender
-  version: 2.79b
-  origversion: 2.79.b+dfsg0-7+deb10u1
-  status: outdated
-  maintainers:
-    - debian-multimedia@lists.debian.org
-    - mfv@debian.org
-  categories:
-    - graphics
-  vulnerable: true
-- repo: pardus_21
-  subrepo: updates/main
-  srcname: blender
-  binnames:
-    - blender
-    - blender-data
-  visiblename: blender
-  version: 2.83.5
-  origversion: 2.83.5+dfsg-5+deb11u1
-  status: legacy
-  maintainers:
-    - debian-multimedia@lists.debian.org
-    - mfv@debian.org
-  categories:
-    - graphics
-  vulnerable: true
 - repo: pardus_21
   subrepo: main
   srcname: blender
@@ -4869,6 +4867,38 @@
   maintainers:
     - debian-multimedia@lists.debian.org
     - mfv@debian.org
+  vulnerable: true
+- repo: pardus_21
+  subrepo: updates/main
+  srcname: blender
+  binnames:
+    - blender
+    - blender-data
+  visiblename: blender
+  version: 2.83.5
+  origversion: 2.83.5+dfsg-5+deb11u1
+  status: legacy
+  maintainers:
+    - debian-multimedia@lists.debian.org
+    - mfv@debian.org
+  categories:
+    - graphics
+  vulnerable: true
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: blender
+  binnames:
+    - blender
+    - blender-data
+  visiblename: blender
+  version: 2.79b
+  origversion: 2.79.b+dfsg0-7+deb10u1
+  status: outdated
+  maintainers:
+    - debian-multimedia@lists.debian.org
+    - mfv@debian.org
+  categories:
+    - graphics
   vulnerable: true
 - repo: pureos_byzantium
   subrepo: byzantium/main
