@@ -19,8 +19,8 @@ Overall score: **3.5 / 10**
 Lowest-scoring checks:
 
 - **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Dangerous-Workflow** (-1/10) — no workflows found
+- **Packaging** (-1/10) — packaging workflow not detected
 
 ## Source
 
@@ -30,26 +30,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 21,613 · **Forks**: 3,497 · **Open issues**: 0 · **Contributors**: 665
+- **Stars**: 21,651 · **Forks**: 3,505 · **Open issues**: 0 · **Contributors**: 666
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 167224
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 167320
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 0 | 0 | 0 | 0 | 0 | 1179 |
-| last60d | 2026-09-05 | 0 | 0 | 0 | 0 | 0 | 2085 |
-| 90d | 2026-08-06 | 0 | 0 | 0 | 0 | 0 | 2796 |
-| last180d | 2026-05-08 | 0 | 0 | 0 | 0 | 0 | 5496 |
-| 360d | 2025-11-09 | 0 | 0 | 0 | 0 | 0 | 10204 |
-| last720d | 2024-11-14 | 0 | 0 | 0 | 0 | 0 | 23732 |
+| 30d | 2026-10-06 | 0 | 0 | 0 | 0 | 0 | 1266 |
+| last60d | 2026-09-06 | 0 | 0 | 0 | 0 | 0 | 2177 |
+| 90d | 2026-08-07 | 0 | 0 | 0 | 0 | 0 | 2888 |
+| last180d | 2026-05-09 | 0 | 0 | 0 | 0 | 0 | 5588 |
+| 360d | 2025-11-10 | 0 | 0 | 0 | 0 | 0 | 10296 |
+| last720d | 2024-11-15 | 0 | 0 | 0 | 0 | 0 | 23783 |
 
 ## Distribution status
 
-Reported by **373** distros on [repology.org](https://repology.org/project/blender). **26** are ✅ on the latest upstream release, **153** are ⚠️ on an older version.
+Reported by **373** distros on [repology.org](https://repology.org/project/blender). **28** are ✅ on the latest upstream release, **151** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -59,7 +59,7 @@ Reported by **373** distros on [repology.org](https://repology.org/project/blend
 | Ubuntu 24.04 LTS | `4.0.2` | ⚠️ outdated |
 | Arch | `5.2.3` | ✅ latest |
 | Fedora rawhide | `5.2.3` | ✅ latest |
-| Nix unstable | `5.2.2` | ⚠️ outdated |
+| Nix unstable | `5.2.3` | ✅ latest |
 | Void | `5.0.0` | ⚠️ outdated |
 | Alpine edge | `5.2.3` | ✅ latest |
 | openSUSE Tumbleweed | `4.5.15` | 🪦 legacy |
@@ -73,4 +73,4 @@ Install metadata for blender lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T07:17:49Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T07:36:38Z._

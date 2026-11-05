@@ -19,8 +19,8 @@ x install blender
 评分最低的几项:
 
 - **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Dangerous-Workflow** (-1/10) — no workflows found
+- **Packaging** (-1/10) — packaging workflow not detected
 
 ## 源代码
 
@@ -30,26 +30,26 @@ x install blender
 
 ## 流行度
 
-- **Star**: 21,613 · **Fork**: 3,497 · **开放 issue**: 0 · **贡献者**: 665
+- **Star**: 21,651 · **Fork**: 3,505 · **开放 issue**: 0 · **贡献者**: 666
 
 ## 累计统计
 
-- **发布数**: 0 · **已合并 PR**: 0 · **开放 PR**: 0 · **已关闭 issue**: 0 · **开放 issue**: 0 · **提交数**: 167224
+- **发布数**: 0 · **已合并 PR**: 0 · **开放 PR**: 0 · **已关闭 issue**: 0 · **开放 issue**: 0 · **提交数**: 167320
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 0 | 0 | 0 | 0 | 0 | 1179 |
-| last60d | 2026-09-05 | 0 | 0 | 0 | 0 | 0 | 2085 |
-| 90d | 2026-08-06 | 0 | 0 | 0 | 0 | 0 | 2796 |
-| last180d | 2026-05-08 | 0 | 0 | 0 | 0 | 0 | 5496 |
-| 360d | 2025-11-09 | 0 | 0 | 0 | 0 | 0 | 10204 |
-| last720d | 2024-11-14 | 0 | 0 | 0 | 0 | 0 | 23732 |
+| 30d | 2026-10-06 | 0 | 0 | 0 | 0 | 0 | 1266 |
+| last60d | 2026-09-06 | 0 | 0 | 0 | 0 | 0 | 2177 |
+| 90d | 2026-08-07 | 0 | 0 | 0 | 0 | 0 | 2888 |
+| last180d | 2026-05-09 | 0 | 0 | 0 | 0 | 0 | 5588 |
+| 360d | 2025-11-10 | 0 | 0 | 0 | 0 | 0 | 10296 |
+| last720d | 2024-11-15 | 0 | 0 | 0 | 0 | 0 | 23783 |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/blender) 上共有 **373** 个发行版报告此项目。**26** 个 ✅ 已是最新上游版本，**153** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/blender) 上共有 **373** 个发行版报告此项目。**28** 个 ✅ 已是最新上游版本，**151** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -59,7 +59,7 @@ x install blender
 | Ubuntu 24.04 LTS | `4.0.2` | ⚠️ outdated |
 | Arch | `5.2.3` | ✅ latest |
 | Fedora rawhide | `5.2.3` | ✅ latest |
-| Nix unstable | `5.2.2` | ⚠️ outdated |
+| Nix unstable | `5.2.3` | ✅ latest |
 | Void | `5.0.0` | ⚠️ outdated |
 | Alpine edge | `5.2.3` | ✅ latest |
 | openSUSE Tumbleweed | `4.5.15` | 🪦 legacy |
@@ -73,4 +73,4 @@ blender 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261104.yml` · 2026-11-04T07:17:50Z._
+_数据快照: `data/card/261105.yml` · 2026-11-05T07:36:38Z._
