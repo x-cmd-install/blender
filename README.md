@@ -30,30 +30,31 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 21,751 · **Forks**: 3,535 · **Open issues**: 0 · **Contributors**: 667
+- **Stars**: 21,788 · **Forks**: 3,546 · **Open issues**: 0 · **Contributors**: 667
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 167449
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 167452
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 0 | 0 | 0 | 0 | 0 | 1031 |
-| last60d | 2026-09-09 | 0 | 0 | 0 | 0 | 0 | 2135 |
-| 90d | 2026-08-10 | 0 | 0 | 0 | 0 | 0 | 2883 |
-| last180d | 2026-05-12 | 0 | 0 | 0 | 0 | 0 | 5516 |
-| 360d | 2025-11-13 | 0 | 0 | 0 | 0 | 0 | 10228 |
-| last720d | 2024-11-18 | 0 | 0 | 0 | 0 | 0 | 23871 |
+| 30d | 2026-10-10 | 0 | 0 | 0 | 0 | 0 | 1034 |
+| last60d | 2026-09-10 | 0 | 0 | 0 | 0 | 0 | 2138 |
+| 90d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 2886 |
+| last180d | 2026-05-13 | 0 | 0 | 0 | 0 | 0 | 5519 |
+| 360d | 2025-11-14 | 0 | 0 | 0 | 0 | 0 | 10231 |
+| last720d | 2024-11-19 | 0 | 0 | 0 | 0 | 0 | 23813 |
 
 ## Distribution status
 
-Reported by **371** distros on [repology.org](https://repology.org/project/blender). **31** are ✅ on the latest upstream release, **151** are ⚠️ on an older version.
+Reported by **371** distros on [repology.org](https://repology.org/project/blender). **30** are ✅ on the latest upstream release, **152** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Debian unstable | `5.2.2` | ⚠️ outdated |
+| Debian 14 | `5.2.2` | ⚠️ outdated |
 | Debian 13 | `4.3.2` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `5.0.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `4.0.2` | ⚠️ outdated |
@@ -73,4 +74,4 @@ Install metadata for blender lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T06:52:05Z._
+_Snapshot: `data/card/261109.yml` · 2026-11-09T07:34:50Z._
