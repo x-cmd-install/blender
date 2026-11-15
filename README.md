@@ -30,26 +30,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 21,968 · **Forks**: 3,584 · **Open issues**: 0 · **Contributors**: 669
+- **Stars**: 22,019 · **Forks**: 3,593 · **Open issues**: 0 · **Contributors**: 669
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 167610
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 167627
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-15 | 0 | 0 | 0 | 0 | 0 | 1185 |
-| last60d | 2026-09-15 | 0 | 0 | 0 | 0 | 0 | 2290 |
-| 90d | 2026-08-16 | 0 | 0 | 0 | 0 | 0 | 3038 |
-| last180d | 2026-05-18 | 0 | 0 | 0 | 0 | 0 | 5671 |
-| 360d | 2025-11-19 | 0 | 0 | 0 | 0 | 0 | 10383 |
-| last720d | 2024-11-24 | 0 | 0 | 0 | 0 | 0 | 23793 |
+| 30d | 2026-10-16 | 0 | 0 | 0 | 0 | 0 | 936 |
+| last60d | 2026-09-16 | 0 | 0 | 0 | 0 | 0 | 2115 |
+| 90d | 2026-08-17 | 0 | 0 | 0 | 0 | 0 | 2879 |
+| last180d | 2026-05-19 | 0 | 0 | 0 | 0 | 0 | 5445 |
+| 360d | 2025-11-20 | 0 | 0 | 0 | 0 | 0 | 10269 |
+| last720d | 2024-11-25 | 0 | 0 | 0 | 0 | 0 | 23788 |
 
 ## Distribution status
 
-Reported by **511** distros on [repology.org](https://repology.org/project/blender). **15** are ✅ on the latest upstream release, **171** are ⚠️ on an older version.
+Reported by **511** distros on [repology.org](https://repology.org/project/blender). **18** are ✅ on the latest upstream release, **168** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -74,4 +74,4 @@ Install metadata for blender lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261114.yml` · 2026-11-14T07:44:41Z._
+_Snapshot: `data/card/261115.yml` · 2026-11-15T07:37:22Z._
