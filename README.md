@@ -30,26 +30,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 22,019 · **Forks**: 3,593 · **Open issues**: 0 · **Contributors**: 669
+- **Stars**: 22,080 · **Forks**: 3,602 · **Open issues**: 0 · **Contributors**: 669
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 167627
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 167630
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 0 | 0 | 0 | 0 | 0 | 936 |
-| last60d | 2026-09-16 | 0 | 0 | 0 | 0 | 0 | 2115 |
-| 90d | 2026-08-17 | 0 | 0 | 0 | 0 | 0 | 2879 |
-| last180d | 2026-05-19 | 0 | 0 | 0 | 0 | 0 | 5445 |
-| 360d | 2025-11-20 | 0 | 0 | 0 | 0 | 0 | 10269 |
-| last720d | 2024-11-25 | 0 | 0 | 0 | 0 | 0 | 23788 |
+| 30d | 2026-10-17 | 0 | 0 | 0 | 0 | 0 | 939 |
+| last60d | 2026-09-17 | 0 | 0 | 0 | 0 | 0 | 2118 |
+| 90d | 2026-08-18 | 0 | 0 | 0 | 0 | 0 | 2882 |
+| last180d | 2026-05-20 | 0 | 0 | 0 | 0 | 0 | 5448 |
+| 360d | 2025-11-21 | 0 | 0 | 0 | 0 | 0 | 10272 |
+| last720d | 2024-11-26 | 0 | 0 | 0 | 0 | 0 | 23751 |
 
 ## Distribution status
 
-Reported by **511** distros on [repology.org](https://repology.org/project/blender). **18** are ✅ on the latest upstream release, **168** are ⚠️ on an older version.
+Reported by **509** distros on [repology.org](https://repology.org/project/blender). **20** are ✅ on the latest upstream release, **165** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -58,8 +58,8 @@ Reported by **511** distros on [repology.org](https://repology.org/project/blend
 | Debian 13 | `4.3.2` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `5.0.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `4.0.2` | ⚠️ outdated |
-| Arch | `5.2.3` | ⚠️ outdated |
-| Fedora rawhide | `5.2.3` | ⚠️ outdated |
+| Arch | `5.3.0` | ✅ latest |
+| Fedora rawhide | `5.3.0` | ✅ latest |
 | Nix unstable | `5.2.3` | ⚠️ outdated |
 | Void | `5.0.0` | ⚠️ outdated |
 | Alpine edge | `5.2.3` | ⚠️ outdated |
@@ -74,4 +74,4 @@ Install metadata for blender lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T07:37:22Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T08:02:19Z._
