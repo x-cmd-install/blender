@@ -18,9 +18,9 @@ x install blender
 
 评分最低的几项:
 
-- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Dangerous-Workflow** (-1/10) — no workflows found
+- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
+- **Token-Permissions** (-1/10) — No tokens found
 
 ## 源代码
 
@@ -30,26 +30,26 @@ x install blender
 
 ## 流行度
 
-- **Star**: 22,131 · **Fork**: 3,612 · **开放 issue**: 0 · **贡献者**: 672
+- **Star**: 22,207 · **Fork**: 3,623 · **开放 issue**: 0 · **贡献者**: 672
 
 ## 累计统计
 
-- **发布数**: 0 · **已合并 PR**: 0 · **开放 PR**: 0 · **已关闭 issue**: 0 · **开放 issue**: 0 · **提交数**: 167686
+- **发布数**: 0 · **已合并 PR**: 0 · **开放 PR**: 0 · **已关闭 issue**: 0 · **开放 issue**: 0 · **提交数**: 167732
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 0 | 0 | 0 | 0 | 989 |
-| last60d | 2026-09-18 | 0 | 0 | 0 | 0 | 0 | 2168 |
-| 90d | 2026-08-19 | 0 | 0 | 0 | 0 | 0 | 2932 |
-| last180d | 2026-05-21 | 0 | 0 | 0 | 0 | 0 | 5498 |
-| 360d | 2025-11-22 | 0 | 0 | 0 | 0 | 0 | 10322 |
-| last720d | 2024-11-27 | 0 | 0 | 0 | 0 | 0 | 23751 |
+| 30d | 2026-10-20 | 0 | 0 | 0 | 0 | 0 | 1031 |
+| last60d | 2026-09-20 | 0 | 0 | 0 | 0 | 0 | 2210 |
+| 90d | 2026-08-21 | 0 | 0 | 0 | 0 | 0 | 2974 |
+| last180d | 2026-05-23 | 0 | 0 | 0 | 0 | 0 | 5540 |
+| 360d | 2025-11-24 | 0 | 0 | 0 | 0 | 0 | 10364 |
+| last720d | 2024-11-29 | 0 | 0 | 0 | 0 | 0 | 23715 |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/blender) 上共有 **512** 个发行版报告此项目。**23** 个 ✅ 已是最新上游版本，**165** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/blender) 上共有 **509** 个发行版报告此项目。**23** 个 ✅ 已是最新上游版本，**164** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -74,4 +74,4 @@ blender 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261117.yml` · 2026-11-17T09:03:41Z._
+_数据快照: `data/card/261119.yml` · 2026-11-19T08:28:02Z._

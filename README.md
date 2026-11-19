@@ -18,9 +18,9 @@ Overall score: **3.5 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Dangerous-Workflow** (-1/10) — no workflows found
+- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
+- **Token-Permissions** (-1/10) — No tokens found
 
 ## Source
 
@@ -30,26 +30,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 22,131 · **Forks**: 3,612 · **Open issues**: 0 · **Contributors**: 672
+- **Stars**: 22,207 · **Forks**: 3,623 · **Open issues**: 0 · **Contributors**: 672
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 167686
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 167732
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 0 | 0 | 0 | 0 | 989 |
-| last60d | 2026-09-18 | 0 | 0 | 0 | 0 | 0 | 2168 |
-| 90d | 2026-08-19 | 0 | 0 | 0 | 0 | 0 | 2932 |
-| last180d | 2026-05-21 | 0 | 0 | 0 | 0 | 0 | 5498 |
-| 360d | 2025-11-22 | 0 | 0 | 0 | 0 | 0 | 10322 |
-| last720d | 2024-11-27 | 0 | 0 | 0 | 0 | 0 | 23751 |
+| 30d | 2026-10-20 | 0 | 0 | 0 | 0 | 0 | 1031 |
+| last60d | 2026-09-20 | 0 | 0 | 0 | 0 | 0 | 2210 |
+| 90d | 2026-08-21 | 0 | 0 | 0 | 0 | 0 | 2974 |
+| last180d | 2026-05-23 | 0 | 0 | 0 | 0 | 0 | 5540 |
+| 360d | 2025-11-24 | 0 | 0 | 0 | 0 | 0 | 10364 |
+| last720d | 2024-11-29 | 0 | 0 | 0 | 0 | 0 | 23715 |
 
 ## Distribution status
 
-Reported by **512** distros on [repology.org](https://repology.org/project/blender). **23** are ✅ on the latest upstream release, **165** are ⚠️ on an older version.
+Reported by **509** distros on [repology.org](https://repology.org/project/blender). **23** are ✅ on the latest upstream release, **164** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -74,4 +74,4 @@ Install metadata for blender lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T09:03:41Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T08:28:01Z._
