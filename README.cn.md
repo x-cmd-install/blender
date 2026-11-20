@@ -30,22 +30,22 @@ x install blender
 
 ## 流行度
 
-- **Star**: 22,207 · **Fork**: 3,623 · **开放 issue**: 0 · **贡献者**: 672
+- **Star**: 22,257 · **Fork**: 3,633 · **开放 issue**: 0 · **贡献者**: 672
 
 ## 累计统计
 
-- **发布数**: 0 · **已合并 PR**: 0 · **开放 PR**: 0 · **已关闭 issue**: 0 · **开放 issue**: 0 · **提交数**: 167732
+- **发布数**: 0 · **已合并 PR**: 0 · **开放 PR**: 0 · **已关闭 issue**: 0 · **开放 issue**: 0 · **提交数**: 167766
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-20 | 0 | 0 | 0 | 0 | 0 | 1031 |
-| last60d | 2026-09-20 | 0 | 0 | 0 | 0 | 0 | 2210 |
-| 90d | 2026-08-21 | 0 | 0 | 0 | 0 | 0 | 2974 |
-| last180d | 2026-05-23 | 0 | 0 | 0 | 0 | 0 | 5540 |
-| 360d | 2025-11-24 | 0 | 0 | 0 | 0 | 0 | 10364 |
-| last720d | 2024-11-29 | 0 | 0 | 0 | 0 | 0 | 23715 |
+| 30d | 2026-10-21 | 0 | 0 | 0 | 0 | 0 | 1053 |
+| last60d | 2026-09-21 | 0 | 0 | 0 | 0 | 0 | 2232 |
+| 90d | 2026-08-22 | 0 | 0 | 0 | 0 | 0 | 2996 |
+| last180d | 2026-05-24 | 0 | 0 | 0 | 0 | 0 | 5562 |
+| 360d | 2025-11-25 | 0 | 0 | 0 | 0 | 0 | 10386 |
+| last720d | 2024-11-30 | 0 | 0 | 0 | 0 | 0 | 23720 |
 
 ## 发行版状态
 
@@ -54,7 +54,7 @@ x install blender
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
 | Debian unstable | `5.2.3` | ⚠️ outdated |
-| Debian 14 | `5.2.2` | ⚠️ outdated |
+| Debian 14 | `5.2.3` | ⚠️ outdated |
 | Debian 13 | `4.3.2` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `5.0.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `4.0.2` | ⚠️ outdated |
@@ -62,7 +62,7 @@ x install blender
 | Fedora rawhide | `5.3.0` | ✅ latest |
 | Nix unstable | `5.2.3` | ⚠️ outdated |
 | Void | `5.0.0` | ⚠️ outdated |
-| Alpine edge | `5.2.3` | ⚠️ outdated |
+| Alpine edge | `5.2.4` | ⚠️ outdated |
 | openSUSE Tumbleweed | `4.5.16` | 🪦 legacy |
 
 ## 改进这些数据
@@ -74,4 +74,4 @@ blender 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261119.yml` · 2026-11-19T08:28:02Z._
+_数据快照: `data/card/261120.yml` · 2026-11-20T10:07:37Z._

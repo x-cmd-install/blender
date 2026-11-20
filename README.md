@@ -30,22 +30,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 22,207 · **Forks**: 3,623 · **Open issues**: 0 · **Contributors**: 672
+- **Stars**: 22,257 · **Forks**: 3,633 · **Open issues**: 0 · **Contributors**: 672
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 167732
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 0 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 167766
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-20 | 0 | 0 | 0 | 0 | 0 | 1031 |
-| last60d | 2026-09-20 | 0 | 0 | 0 | 0 | 0 | 2210 |
-| 90d | 2026-08-21 | 0 | 0 | 0 | 0 | 0 | 2974 |
-| last180d | 2026-05-23 | 0 | 0 | 0 | 0 | 0 | 5540 |
-| 360d | 2025-11-24 | 0 | 0 | 0 | 0 | 0 | 10364 |
-| last720d | 2024-11-29 | 0 | 0 | 0 | 0 | 0 | 23715 |
+| 30d | 2026-10-21 | 0 | 0 | 0 | 0 | 0 | 1053 |
+| last60d | 2026-09-21 | 0 | 0 | 0 | 0 | 0 | 2232 |
+| 90d | 2026-08-22 | 0 | 0 | 0 | 0 | 0 | 2996 |
+| last180d | 2026-05-24 | 0 | 0 | 0 | 0 | 0 | 5562 |
+| 360d | 2025-11-25 | 0 | 0 | 0 | 0 | 0 | 10386 |
+| last720d | 2024-11-30 | 0 | 0 | 0 | 0 | 0 | 23720 |
 
 ## Distribution status
 
@@ -54,7 +54,7 @@ Reported by **509** distros on [repology.org](https://repology.org/project/blend
 | Distro | Version | Status |
 |--------|---------|--------|
 | Debian unstable | `5.2.3` | ⚠️ outdated |
-| Debian 14 | `5.2.2` | ⚠️ outdated |
+| Debian 14 | `5.2.3` | ⚠️ outdated |
 | Debian 13 | `4.3.2` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `5.0.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `4.0.2` | ⚠️ outdated |
@@ -62,7 +62,7 @@ Reported by **509** distros on [repology.org](https://repology.org/project/blend
 | Fedora rawhide | `5.3.0` | ✅ latest |
 | Nix unstable | `5.2.3` | ⚠️ outdated |
 | Void | `5.0.0` | ⚠️ outdated |
-| Alpine edge | `5.2.3` | ⚠️ outdated |
+| Alpine edge | `5.2.4` | ⚠️ outdated |
 | openSUSE Tumbleweed | `4.5.16` | 🪦 legacy |
 
 ## Improve this data
@@ -74,4 +74,4 @@ Install metadata for blender lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261119.yml` · 2026-11-19T08:28:01Z._
+_Snapshot: `data/card/261120.yml` · 2026-11-20T10:07:36Z._
