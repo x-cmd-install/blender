@@ -2,33 +2,33 @@ about:
   description: "Official mirror of Blender"
   license: NOASSERTION
   homepage: https://developer.blender.org/docs/handbook/contributing/using_git/#github-mirror
-  head: ad9324c
+  head: 693b3a8
   archived: false
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-11-27T09:14:32Z
+  collectedAt: 2026-11-28T09:08:22Z
 timeline:
   created: 2019-10-09
-  lastCommit: 2026-11-27
+  lastCommit: 2026-11-28
   lastVersion: 
   lastRelease: 
   lastPrerelease: 
 popularity:
-  star: 22622
+  star: 22645
   watcher: 375
-  fork: 3696
+  fork: 3705
   release: 0
   contributor: 675
   pullRequest: 0
   issue: 0
 language:
-  C++: 113975904
-  Python: 21134619
-  C: 2012626
-  CMake: 1630392
-  Objective-C++: 949537
-  GLSL: 778678
+  C++: 113996830
+  Python: 21139310
+  C: 2012621
+  CMake: 1630050
+  Objective-C++: 949535
+  GLSL: 766348
   HTML: 74252
   Batchfile: 52363
   Shell: 42299
@@ -38,63 +38,63 @@ language:
   Slash: 5643
   Hack: 1340
   Objective-C: 314
-totalBytes: 140728454
+totalBytes: 140741392
 recent:
   last30d:
-    since: 2026-10-28
+    since: 2026-10-29
     release: 0
     mergedPR: 0
     openPR: 0
     closedIssue: 0
     openIssue: 0
-    commit: 961
+    commit: 990
   last60d:
-    since: 2026-09-28
+    since: 2026-09-29
     release: 0
     mergedPR: 0
     openPR: 0
     closedIssue: 0
     openIssue: 0
-    commit: 2338
+    commit: 2367
   last90d:
-    since: 2026-08-29
+    since: 2026-08-30
     release: 0
     mergedPR: 0
     openPR: 0
     closedIssue: 0
     openIssue: 0
-    commit: 3088
+    commit: 3117
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 0
     mergedPR: 0
     openPR: 0
     closedIssue: 0
     openIssue: 0
-    commit: 5594
+    commit: 5623
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 0
     mergedPR: 0
     openPR: 0
     closedIssue: 0
     openIssue: 0
-    commit: 10461
+    commit: 10490
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 0
     mergedPR: 0
     openPR: 0
     closedIssue: 0
     openIssue: 0
-    commit: 23710
+    commit: 23729
 total:
   release: 0
   mergedPR: 0
   openPR: 0
   closedIssue: 0
   openIssue: 0
-  commit: 168028
+  commit: 168058
 ---
 ---
 date: "2026-11-23"
